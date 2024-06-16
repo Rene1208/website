@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -22,9 +22,9 @@ repository: "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar: "profile.png"
-  name: "Experimental Environmental Economist and Meta-Scientist"
+  name: "Rene Schwaiger, PhD"
   pronouns: # example: "she/her"
-  bio: "I am a Post Doctoral Researcher at the Department of Banking and Finance and Scientific Coordinator of the Innsbruck EconLab at the University of Innsbruck"
+  bio: "I am a Post Doctoral Researcher at the Department of Banking and Finance and I am Scientific Coordinator of the Innsbruck EconLab at the University of Innsbruck. My research focuses on experimental environmental economics, experimental finance, and meta-science. "
   location: "Innsbruck"
   employer: "University of Innsbruck"
   uri: # URL
