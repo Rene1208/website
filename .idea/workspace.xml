@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="set CV">
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="formatting fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/author-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/author-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/leaflet.markercluster-src.js" beforeDir="false" afterPath="$PROJECT_DIR$/talkmap/leaflet_dist/leaflet.markercluster-src.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <workItem from="1718503554802" duration="1883000" />
       <workItem from="1718505448376" duration="852000" />
       <workItem from="1718506312708" duration="3727000" />
-      <workItem from="1718511208153" duration="1642000" />
+      <workItem from="1718511208153" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="Config Page">
       <created>1718507239416</created>
@@ -105,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718510645862</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="formatting fix">
+      <created>1718513006277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718513006277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +132,7 @@
     <MESSAGE value="set foto" />
     <MESSAGE value="set photo" />
     <MESSAGE value="set CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="set CV" />
+    <MESSAGE value="formatting fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting fix" />
   </component>
 </project>
