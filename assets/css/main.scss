@@ -10,6 +10,29 @@
  *
 */
 
+@import "animate.css/animate.min.css";  // Import Animate.css
+
+body {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
+body.zoom-in {
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+body.slide-in-up {
+  animation: slideInUp 1s ease-in-out forwards;
+}
+
+body.rotate-in {
+  animation: rotateIn 1s ease-in-out forwards;
+}
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
