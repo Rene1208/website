@@ -45,7 +45,7 @@ Get in Touch
 <a id="get-in-touch"></a>
 I welcome opportunities for collaboration, discussion, and engagement. Whether you are a fellow researcher, a student,
 or simply interested in my work, feel free to reach out. You can contact me via email at [rene.schwaiger@uibk.ac.at](mailto:rene.schwaiger@uibk.ac.at) or
-connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-username).
+connect with me on [LinkedIn](https://www.linkedin.com/in/rene-schwaiger-57a4b3bb).
 
 Stay Connected
 ======
