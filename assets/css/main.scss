@@ -42,37 +42,36 @@ body.rotate-in {
   animation: rotateIn 1s ease-in-out forwards;
 }
 
-@import url("https://rene-schwaiger.online/assets/vendor/breakpoint/breakpoint.css"); // media query mixins
-@import url("https://rene-schwaiger.online/assets/css/variables.css");
-@import url("https://rene-schwaiger.online/assets/css/mixins.css");
-@import url("https://rene-schwaiger.online/assets/vendor/susy/susy.css");
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
 
-@import url("https://rene-schwaiger.online/assets/css/reset.css");
-@import url("https://rene-schwaiger.online/assets/css/base.css");
+@import "reset";
+@import "base";
 
-@import url("https://rene-schwaiger.online/assets/css/utilities.css");
-@import url("https://rene-schwaiger.online/assets/css/animations.css");
-@import url("https://rene-schwaiger.online/assets/css/tables.css");
-@import url("https://rene-schwaiger.online/assets/css/buttons.css");
-@import url("https://rene-schwaiger.online/assets/css/notices.css");
-@import url("https://rene-schwaiger.online/assets/css/masthead.css");
-@import url("https://rene-schwaiger.online/assets/css/navigation.css");
-@import url("https://rene-schwaiger.online/assets/css/footer.css");
-@import url("https://rene-schwaiger.online/assets/css/syntax.css");
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
 
-@import url("https://rene-schwaiger.online/assets/css/forms.css");
+@import "forms";
 
-@import url("https://rene-schwaiger.online/assets/css/page.css");
-@import url("https://rene-schwaiger.online/assets/css/archive.css");
-@import url("https://rene-schwaiger.online/assets/css/sidebar.css");
+@import "page";
+@import "archive";
+@import "sidebar";
 
-@import url("https://rene-schwaiger.online/assets/vendor/font-awesome/fontawesome.css");
-@import url("https://rene-schwaiger.online/assets/vendor/font-awesome/solid.css");
-@import url("https://rene-schwaiger.online/assets/vendor/font-awesome/brands.css");
-@import url("https://rene-schwaiger.online/assets/vendor/magnific-popup/magnific-popup.css");
-@import url("https://rene-schwaiger.online/assets/css/print.css");
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
 
-@import url("https://rene-schwaiger.online/assets/css/custom.css");
-
+@import "custom";
 
 
