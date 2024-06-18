@@ -4,11 +4,14 @@ layout: compress
 
 {% include base_path %}
 
-<!doctype html>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     {% include head.html %}
     {% include head/custom.html %}
 </head>
@@ -35,11 +38,7 @@ layout: compress
 {% include scripts.html %}
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        document.body.classList.add('fade-in');
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         // Add 'fade-in' class to body
         document.body.classList.add('fade-in');
 
