@@ -41,63 +41,6 @@ layout: compress
     document.addEventListener('DOMContentLoaded', function() {
         // Add 'fade-in' class to body
         document.body.classList.add('fade-in');
-
-        // Handle site navigation
-        const siteNav = document.getElementById('site-nav');
-        if (!siteNav) {
-            console.error('Site navigation element not found');
-            return;
-        }
-
-        const button = siteNav.querySelector('button');
-        const visibleLinks = siteNav.querySelector('.visible-links');
-        const hiddenLinks = siteNav.querySelector('.hidden-links');
-        let resizeTimeout;
-        let lastInnerWidth = window.innerWidth;
-
-        function handleResize() {
-            clearTimeout(resizeTimeout);
-
-            const currentInnerWidth = window.innerWidth;
-            const isMaximized = currentInnerWidth === screen.width;
-            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
-
-            if ((isMaximized || (!isFullscreen && lastInnerWidth === screen.width)) && currentInnerWidth !== lastInnerWidth) {
-                document.body.classList.add('hidden'); // Hide the body
-                resizeTimeout = setTimeout(() => {
-                    document.body.classList.remove('hidden'); // Show the body again
-                    adjustNav();
-                }, 50); // Short delay for hiding
-            } else {
-                adjustNav();
-            }
-
-            lastInnerWidth = currentInnerWidth;
-        }
-
-        function adjustNav() {
-            if (window.innerWidth > 768) {
-                // Move items back to the visible list
-                while (hiddenLinks.children.length > 0) {
-                    visibleLinks.appendChild(hiddenLinks.children[0]);
-                }
-                button.style.display = 'none'; // Hide button on large screens
-            } else {
-                // Ensure toggle button is visible if the window is resized to a smaller size
-                if (hiddenLinks.children.length > 0) {
-                    button.style.display = 'block';
-                } else {
-                    button.style.display = 'none';
-                }
-            }
-        }
-
-        window.addEventListener('resize', handleResize);
-        document.addEventListener('fullscreenchange', handleResize);
-        document.addEventListener('webkitfullscreenchange', handleResize);
-
-        // Initial call to handleResize to set up the initial state
-        handleResize();
     });
 </script>
 
