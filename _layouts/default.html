@@ -4,68 +4,16 @@ layout: compress
 
 {% include base_path %}
 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my Academic Website - Rene Schwaiger, PhD</title>
-    <meta property="og:locale" content="en-US">
-    <meta property="og:site_name" content="Rene Schwaiger, PhD">
-    <meta property="og:title" content="Welcome to my Academic Website">
-    <meta property="og:url" content="https://rene-schwaiger.online/">
-    <link rel="canonical" href="https://rene-schwaiger.online/">
-    <script type="application/ld+json"> {
-        "@context": "http://schema.org",
-        "@type": "Person",
-        "name": "Rene Schwaiger, PhD",
-        "url": "https://rene-schwaiger.online",
-        "sameAs": null
-    } </script>
-    <link href="https://rene-schwaiger.online/feed.xml" type="application/atom+xml" rel="alternate"
-          title="Rene Schwaiger, PhD Feed">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://rene-schwaiger.online/assets/css/main.css">
-    <link rel="apple-touch-icon" sizes="57x57"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="60x60"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="72x72"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="76x76"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="114x114"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="120x120"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="144x144"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="152x152"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
-    <link rel="apple-touch-icon" sizes="180x180"
-          href="https://rene-schwaiger.online/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
-    <link rel="manifest" href="https://rene-schwaiger.online/images/manifest.json?v=M44lzPylqQ">
-    <link rel="mask-icon" href="https://rene-schwaiger.online/images/safari-pinned-tab.svg?v=M44lzPylqQ"
-          color="#000000">
-    <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="https://rene-schwaiger.online/images/mstile-144x144.png?v=M44lzPylqQ">
-    <meta name="msapplication-config" content="https://rene-schwaiger.online/images/browserconfig.xml?v=M44lzPylqQ">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://rene-schwaiger.online/assets/css/academicons.css"/>
-    <!-- Support for MathJax -->
-    <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>
-        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-    </script>
     {% include head.html %}
     {% include head/custom.html %}
 </head>
 
 <body>
+
 {% include browser-upgrade.html %}
 {% include masthead.html %}
 
@@ -86,6 +34,10 @@ layout: compress
 {% include scripts.html %}
 
 <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.body.classList.add('fade-in');
+    });
+
     document.addEventListener("DOMContentLoaded", function () {
         document.body.classList.add('fade-in');
     });
@@ -143,5 +95,6 @@ layout: compress
         handleResize();
     });
 </script>
+
 </body>
 </html>
