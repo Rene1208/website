@@ -21,6 +21,15 @@ body.fade-in {
   opacity: 1;
 }
 
+body.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
 body.zoom-in {
   animation: zoomIn 1s ease-in-out forwards;
 }

@@ -24,14 +24,14 @@
 }
 
 html, body {
-  background-color: #F2F2F2;
+  background-color: #f2f3f3;
   font-family: 'Roboto', sans-serif;
   font-weight: 250; /* Roboto Light */
 }
 
 
 .page .page__inner-wrap {
-  background-color: #F2F2F2;
+  background-color: #f2f3f3;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; /* Roboto Light */
   font-size: 12pt;
@@ -68,3 +68,53 @@ html, body {
 .greedy-nav a {
   color: #9aa2a8;
 }
+
+
+/* Base styles */
+body {
+  background-color: #f2f3f3;
+  color: #333;
+}
+
+/* Styles for mobile phones */
+@media only screen and (max-width: 600px) {
+  body {
+
+  }
+
+  .page {
+    width: 95%;
+    float: right;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 5%;
+  }
+
+  .archive {
+    width: 95%;
+    float: right;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Roboto Light */
+    font-size: 12pt;
+  }
+
+
+}
+
+/* Styles for mobile phones */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Adjust this value to the height of your header/navigation bar */
+  }
+}
+
+/* Ensure the rest of your page content starts below the header/navigation bar */
+.page-content {
+  margin-top: 20px; /* Adjust this value if needed */
+}
+

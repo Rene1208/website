@@ -1,23 +1,85 @@
 {% include base_path %}
 
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav">
+                <button>
+                    <div class="navicon"></div>
+                </button>
+                <ul class="visible-links">
+                    <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title
+                        }}</a></li>
+                    {% for link in site.data.navigation.main %}
+                    {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                    {% else %}
+                    {% assign domain = base_path %}
+                    {% endif %}
+                    <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
+        </div>
     </div>
-  </div>
 </div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const siteNav = document.getElementById('site-nav');
+        const button = siteNav.querySelector('button');
+        const visibleLinks = siteNav.querySelector('.visible-links');
+        const hiddenLinks = siteNav.querySelector('.hidden-links');
+        let resizeTimeout;
+        let lastInnerWidth = window.innerWidth;
+
+        function handleResize() {
+            clearTimeout(resizeTimeout);
+
+            const currentInnerWidth = window.innerWidth;
+            const isMaximized = currentInnerWidth === screen.width;
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
+
+            if ((isMaximized || (!isFullscreen && lastInnerWidth === screen.width)) && currentInnerWidth !== lastInnerWidth) {
+                document.body.classList.add('hidden'); // Hide the body
+                resizeTimeout = setTimeout(() => {
+                    document.body.classList.remove('hidden'); // Show the body again
+                    adjustNav();
+                }, 0.05); // Short delay for hiding
+            } else {
+                adjustNav();
+            }
+
+            lastInnerWidth = currentInnerWidth;
+        }
+
+        function adjustNav() {
+            if (window.innerWidth > 768) {
+                // Move items back to the visible list
+                while (hiddenLinks.children.length > 0) {
+                    visibleLinks.appendChild(hiddenLinks.children[0]);
+                }
+                button.style.display = 'none'; // Hide button on large screens
+            } else {
+                // Ensure toggle button is visible if the window is resized to a smaller size
+                if (hiddenLinks.children.length > 0) {
+                    button.style.display = 'block';
+                } else {
+                    button.style.display = 'none';
+                }
+            }
+        }
+
+        window.addEventListener('resize', handleResize);
+        document.addEventListener('fullscreenchange', handleResize);
+        document.addEventListener('webkitfullscreenchange', handleResize);
+
+        // Initial call to handleResize to set up the initial state
+        handleResize();
+    });
+</script>
+
+
+
