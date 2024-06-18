@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="map">
-      <change afterPath="$PROJECT_DIR$/_publications/2021_MTurk.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_publications/2022_Morals.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_publications/2024_Carbon.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_publications/2024_Nature.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Carbon.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Debiasing.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Inequality.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/MTurk.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Morals.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Nature.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Nudging.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer/custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/masthead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-14-blog-post-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-08-14-blog-post-3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-08-14-blog-post-4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2010-10-01-paper-title-number-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/2020_Inequality.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2015-10-01-paper-title-number-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/2022_Nudging.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2024-02-17-paper-title-number-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/2022_Debiasing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2012-03-01-talk-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2023_Venice.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/paper2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/paper3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/talkmap/leaflet_dist/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talkmap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/talkmap/map.html" afterDir="false" />
-    </list>
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="Updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +76,7 @@
       <workItem from="1718511208153" duration="9694000" />
       <workItem from="1718589258963" duration="6894000" />
       <workItem from="1718602044221" duration="3699000" />
-      <workItem from="1718652738200" duration="18444000" />
+      <workItem from="1718652738200" duration="18847000" />
     </task>
     <task id="LOCAL-00001" summary="Config Page">
       <created>1718507239416</created>
@@ -213,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718605738381</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updates">
+      <created>1718671908566</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718671908567</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +220,7 @@
     <MESSAGE value="design" />
     <MESSAGE value="massive updates" />
     <MESSAGE value="map" />
-    <option name="LAST_COMMIT_MESSAGE" value="map" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
 </project>
