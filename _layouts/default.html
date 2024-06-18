@@ -1,9 +1,3 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 <head>
@@ -39,6 +33,7 @@ layout: compress
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOMContentLoaded event fired');
     // Add 'fade-in' class to body
     document.body.classList.add('fade-in');
 
