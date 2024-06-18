@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title</title>
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
 {% include base_path %}
 
 <div class="masthead">
@@ -8,8 +19,7 @@
                     <div class="navicon"></div>
                 </button>
                 <ul class="visible-links">
-                    <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title
-                        }}</a></li>
+                    <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
                     {% for link in site.data.navigation.main %}
                     {% if link.url contains 'http' %}
                     {% assign domain = '' %}
@@ -24,7 +34,6 @@
         </div>
     </div>
 </div>
-
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -47,7 +56,7 @@
                 resizeTimeout = setTimeout(() => {
                     document.body.classList.remove('hidden'); // Show the body again
                     adjustNav();
-                }, 0.05); // Short delay for hiding
+                }, 50); // Short delay for hiding
             } else {
                 adjustNav();
             }
@@ -81,5 +90,5 @@
     });
 </script>
 
-
-
+</body>
+</html>

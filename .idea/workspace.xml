@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="Updates">
-      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/masthead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-    </list>
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,7 @@
       <workItem from="1718589258963" duration="6894000" />
       <workItem from="1718602044221" duration="3699000" />
       <workItem from="1718652738200" duration="19728000" />
-      <workItem from="1718674973524" duration="332000" />
+      <workItem from="1718674973524" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="Config Page">
       <created>1718507239416</created>
@@ -208,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718673179050</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixes">
+      <created>1718675596086</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718675596086</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +243,7 @@
     <MESSAGE value="massive updates" />
     <MESSAGE value="map" />
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>
