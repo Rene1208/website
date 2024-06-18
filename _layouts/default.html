@@ -4,46 +4,41 @@ layout: compress
 
 {% include base_path %}
 
-<!DOCTYPE html>
+<!doctype html>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <head>
     {% include head.html %}
     {% include head/custom.html %}
-</head>
+  </head>
 
-<body>
+  <body>
 
-{% include browser-upgrade.html %}
-{% include masthead.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
-{{ content }}
+    {{ content }}
 
-<div class="page__footer">
-    <footer>
+    <div class="page__footer">
+      <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
-    </footer>
-</div>
+      </footer>
+    </div>
 
-{% include scripts.html %}
+    {% include scripts.html %}
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Add 'fade-in' class to body
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.add('fade-in');
+      });
+    </script>
 
-    });
-</script>
-
-</body>
+  </body>
 </html>
