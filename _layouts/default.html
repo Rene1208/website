@@ -4,97 +4,43 @@ layout: compress
 
 {% include base_path %}
 
+<!doctype html>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<head>
+  <head>
     {% include head.html %}
     {% include head/custom.html %}
-</head>
+  </head>
 
-<body>
+  <body>
 
-{% include browser-upgrade.html %}
-{% include masthead.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
-{{ content }}
+    {{ content }}
 
-<div class="page__footer">
-    <footer>
+    <div class="page__footer">
+      <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
-    </footer>
-</div>
+      </footer>
+    </div>
 
-{% include scripts.html %}
+    {% include scripts.html %}
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.add('fade-in');
-    });
+      });
 
-    document.addEventListener("DOMContentLoaded", function () {
-        document.body.classList.add('fade-in');
-    });
 
-    document.addEventListener('DOMContentLoaded', function () {
-        const siteNav = document.getElementById('site-nav');
-        const button = siteNav.querySelector('button');
-        const visibleLinks = siteNav.querySelector('.visible-links');
-        const hiddenLinks = siteNav.querySelector('.hidden-links');
-        let resizeTimeout;
-        let lastInnerWidth = window.innerWidth;
+    </script>
 
-        function handleResize() {
-            clearTimeout(resizeTimeout);
-
-            const currentInnerWidth = window.innerWidth;
-            const isMaximized = currentInnerWidth === screen.width;
-            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
-
-            if ((isMaximized || (!isFullscreen && lastInnerWidth === screen.width)) && currentInnerWidth !== lastInnerWidth) {
-                document.body.classList.add('hidden'); // Hide the body
-                resizeTimeout = setTimeout(() => {
-                    document.body.classList.remove('hidden'); // Show the body again
-                    adjustNav();
-                }, 50); // Short delay for hiding
-            } else {
-                adjustNav();
-            }
-
-            lastInnerWidth = currentInnerWidth;
-        }
-
-        function adjustNav() {
-            if (window.innerWidth > 768) {
-                // Move items back to the visible list
-                while (hiddenLinks.children.length > 0) {
-                    visibleLinks.appendChild(hiddenLinks.children[0]);
-                }
-                button.style.display = 'none'; // Hide button on large screens
-            } else {
-                // Ensure toggle button is visible if the window is resized to a smaller size
-                if (hiddenLinks.children.length > 0) {
-                    button.style.display = 'block';
-                } else {
-                    button.style.display = 'none';
-                }
-            }
-        }
-
-        window.addEventListener('resize', handleResize);
-        document.addEventListener('fullscreenchange', handleResize);
-        document.addEventListener('webkitfullscreenchange', handleResize);
-
-        // Initial call to handleResize to set up the initial state
-        handleResize();
-    });
-</script>
-
-</body>
+  </body>
 </html>
