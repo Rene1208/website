@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-    </list>
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="content" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +78,7 @@
       <workItem from="1718602044221" duration="3699000" />
       <workItem from="1718652738200" duration="19728000" />
       <workItem from="1718674973524" duration="5128000" />
-      <workItem from="1719106474775" duration="292000" />
+      <workItem from="1719106474775" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="Config Page">
       <created>1718507239416</created>
@@ -349,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718679876000</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="content">
+      <created>1719106776954</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719106776954</updated>
+    </task>
+    <task id="LOCAL-00040" summary="content">
+      <created>1719107049729</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719107049729</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +393,7 @@
     <MESSAGE value="Updates" />
     <MESSAGE value="fixes" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="content" />
+    <option name="LAST_COMMIT_MESSAGE" value="content" />
   </component>
 </project>
