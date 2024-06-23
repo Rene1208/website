@@ -12,7 +12,7 @@ location: "Venice, Italy"
 
 
 <div style="text-align: justify; text-justify: inter-word;">Collective action problems emerge when individual incentives and group interests are misaligned, as in the case of
-climate change1–5. Individuals facing collective action problems are often considered to have two options: contribute
+climate change. Individuals facing collective action problems are often considered to have two options: contribute
 towards a public solution or free-ride. But they might also choose a third option of investing in a private solution
 such as local climate change adaptation6–8. Experimental research on the dynamics of collective action problems
 featuring private solutions has been conducted only in single-country contexts, thereby lacking generalisability. Here
