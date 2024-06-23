@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="content">
-      <change afterPath="$PROJECT_DIR$/_talks/2019_Linz.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_talks/2021_WEAI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_talks/2022_Bonn.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_talks/2022_BuenosAires.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_talks/2023_Sofia.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/talks.html" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/talks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2013-03-01-tutorial-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2024_Innsbruck_Climate.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2014-02-01-talk-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2024_Sustainable_Finance.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2014-03-01-talk-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2022_Singapore.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talkmap/locations.json" beforeDir="false" afterPath="$PROJECT_DIR$/talkmap/locations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_talks/2019_Linz.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2019_Linz.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719107330843</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="content">
+      <created>1719111264303</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719111264303</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
