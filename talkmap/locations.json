@@ -1,18 +1,38 @@
 {
-    "Los Angeles, CA": [
-        34.0536909,
-        -118.242766
+    "Innsbruck, Austria": [
+        47.2654296,
+        11.3927685
+    ],
+    "Bonn, Germany": [
+        50.735851,
+        7.10066
+    ],
+    "Nijmegen, Netherlands": [
+        51.842574850000005,
+        5.838960628748229
+    ],
+    "Singapore, Singapore": [
+        1.2899175,
+        103.8519072
+    ],
+    "Venice, Italy": [
+        45.4371908,
+        12.3345898
     ],
     "Sofia, Bulgaria": [
         42.6977028,
         23.3217359
     ],
-    "Berkeley CA, USA": [
-        37.8708393,
-        -122.272863
+    "Buenos Aires, Argentina": [
+        -34.6037181,
+        -58.38153
     ],
-    "Venice, Italy": [
-        45.4371908,
-        12.3345898
+    "Linz, \u00d6sterreich": [
+        48.3059078,
+        14.286198
+    ],
+    "Fountain Valley, California": [
+        33.7038145,
+        -117.9627349
     ]
 }
