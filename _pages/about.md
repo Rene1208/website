@@ -13,7 +13,7 @@ redirect_from:
 I am a Post Doctoral Researcher at the Department of Banking and Finance and the Scientific Coordinator of Lab
 Operations at the Innsbruck
 EconLab at the University of Innsbruck. My research delves into the intriguing realms of experimental economics,
-especially on environmental
+especially environmental
 economics, experimental finance, and meta-science. With a background and a passion for uncovering new
 insights, I strive to contribute to our society and academic community.
 
