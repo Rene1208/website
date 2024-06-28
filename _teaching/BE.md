@@ -1,7 +1,7 @@
 ---
 title: "Corporate Decision-Making and Societal Responsibility"
 collection: teaching
-type: "Graduate Course"
+type: "Undergraduate Course"
 permalink: /teaching/2022-corporate-decision-making-societal-responsibility
 venue: "University of Innsbruck, Department of Economics"
 date: 2022-01-01
@@ -69,4 +69,4 @@ presentations to deepen understanding and practical application of the topics.
 
 ## Target Audience
 
-Graduate students interested in corporate ethics, CSR, and sustainable business practices.
+Undergraduate students interested in corporate ethics, CSR, and sustainable business practices.

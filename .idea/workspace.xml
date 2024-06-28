@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="content">
-      <change afterPath="$PROJECT_DIR$/_teaching/BE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_teaching/MBA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_teaching/bacseminar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_teaching/cobac.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_teaching/2014-spring-teaching-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/Portfolio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_teaching/2015-spring-teaching-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/Invest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2199-01-01-future-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2199-01-01-future-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/BE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/BE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/Invest.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/Invest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/MBA.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/MBA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/bacseminar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/bacseminar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/cobac.md" beforeDir="false" afterPath="$PROJECT_DIR$/_teaching/cobac.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1719107912013" duration="421000" />
       <workItem from="1719108511790" duration="131000" />
       <workItem from="1719163029042" duration="136000" />
-      <workItem from="1719534626875" duration="859000" />
+      <workItem from="1719534626875" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="Config Page">
       <created>1718507239416</created>
@@ -450,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719163061941</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="content">
+      <created>1719535771862</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719535771862</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

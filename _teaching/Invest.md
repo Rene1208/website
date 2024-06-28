@@ -4,7 +4,8 @@ collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/Invest
 venue: "University of Innsbruck, Department of Banking and Finance"
-date: 2018-2023
+date: 2018-10-01
+end_date: 2023-06-30
 location: "Innsbruck, Austria"
 ---
 

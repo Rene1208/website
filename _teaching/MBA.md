@@ -4,7 +4,8 @@ collection: teaching
 type: "Graduate Course"
 permalink: /teaching/MBA
 venue: "Danube University Krems, MBA Program"
-date: 2021-12
+date: 2021-12-14
+end_date: 2021-12-16
 location: "Krems, Austria"
 ---
 

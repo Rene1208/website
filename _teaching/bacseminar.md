@@ -4,7 +4,8 @@ collection: teaching
 type: "Undergraduate Seminar"
 permalink: /teaching/bacseminar
 venue: "University of Innsbruck, Department of Economics"
-date: 2021-2023
+date: 2021-10-01
+end_date: 2023-06-30
 location: "Innsbruck, Austria"
 ---
 

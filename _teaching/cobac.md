@@ -4,7 +4,8 @@ collection: teaching
 type: "Undergraduate Supervision"
 permalink: /teaching/cobac
 venue: "University of Innsbruck, Department of Economics"
-date: 2018-2021
+date: 2018-10-01
+end_date: 2021-06-30
 location: "Innsbruck, Austria"
 ---
 

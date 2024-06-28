@@ -11,8 +11,6 @@ tags:
 
 ---
 
-Hello everyone,
-
 I am excited to announce that I will soon begin posting a series of blogs dedicated to experimental research and
 statistics. These posts will delve into various aspects of experimental design, data collection, and statistical
 analysis, aiming to provide valuable insights and practical guidance for researchers and enthusiasts alike.
@@ -49,5 +47,3 @@ seasoned researcher or just starting, these blog posts aim to enhance your under
 of study.
 
 Stay tuned for the first post coming soon!
-
-To disable scheduling of future posts, edit `config.yml` and set `future: false`.
