@@ -23,4 +23,4 @@ correlation between decision market prices and replication outcomes was 0.505, i
 markets to select studies for replication. Overall, 54% of the studies were successfully replicated, with replication
 effect sizes averaging 45% of the original effect sizes. These results suggest that the replicability of MTurk
 experiments is comparable to that of previous systematic replication projects involving laboratory experiments. All
-study aspects were preregistered, and we strictly adhered to our pre-analysis plan.
+study aspects were preregistered, and we strictly adhered to our pre-analysis plan. 
