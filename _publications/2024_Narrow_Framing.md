@@ -17,4 +17,4 @@ indicating that MLA's applicability is confined to highly artificial settings. G
 reevaluated the evidence on MLA with substantially higher statistical power than in almost all previous studies. We
 systematically modified the seminal study design by Gneezy and Potters (1997) to include five key adjustments. These
 involved down-scaled returns, return compounding, and extended investment horizons. Our results—which are highly robust
-to analytical heterogeneity—consistently document the presence of MLA across all experimental conditions.  
+to analytical heterogeneity—consistently document the presence of MLA across all experimental conditions.   
