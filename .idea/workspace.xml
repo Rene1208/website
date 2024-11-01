@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="paper update 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2024_Narrow_Framing.md" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/2024_Narrow_Framing.md" afterDir="false" />
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="paper update 4">
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,21 +118,7 @@
       <workItem from="1727968842420" duration="6000" />
       <workItem from="1728416892145" duration="1315000" />
       <workItem from="1729524654587" duration="17000" />
-      <workItem from="1730476707611" duration="2201000" />
-    </task>
-    <task id="LOCAL-00011" summary="design">
-      <created>1718520990044</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718520990044</updated>
-    </task>
-    <task id="LOCAL-00012" summary="massive updates">
-      <created>1718593837853</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1718593837853</updated>
+      <workItem from="1730476707611" duration="2492000" />
     </task>
     <task id="LOCAL-00013" summary="massive updates">
       <created>1718595528645</created>
@@ -464,7 +449,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730478435887</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="paper update 3">
+      <created>1730478929972</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1730478929972</updated>
+    </task>
+    <task id="LOCAL-00061" summary="paper update 4">
+      <created>1730479048571</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1730479048571</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +501,8 @@
     <MESSAGE value="paper update" />
     <MESSAGE value="paper update 2" />
     <MESSAGE value="paper update 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="paper update 3" />
+    <MESSAGE value="paper update 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="paper update 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/website$Python.coverage" NAME="Python Coverage Results" MODIFIED="1730477600052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

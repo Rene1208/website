@@ -8,7 +8,7 @@ date: 2024-08-07
 venue: 'Journal of Economic Behavior and Organization'
 paperurl: 'http://rene-schwaiger.online/files/Carbon.pdf'
 citation: 'Bachler, S., Flecke, S.L., Huber, J., Kirchler, M., Schwaiger, R., (2024). Carbon Pricing, Carbon Dividends
-and Cooperation: Experimental Evidence, <i>Forthcoming: Journal of Economic Behavior and Organization</i>.'
+and Cooperation: Experimental Evidence, <i>Journal of Economic Behavior and Organization</i>, 225, 37-50.'
 ---
 
 Abstract: We investigated whether carbon taxes with and without carbon dividends improve

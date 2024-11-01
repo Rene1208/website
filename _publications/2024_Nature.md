@@ -6,10 +6,10 @@ excerpt: 'Exposure to nature is positively associated with pro-environmental beh
 limited. We conducted a randomized controlled trial with N=542 participants, to explore whether a one-time encounter
 with nature can lead individuals to behave more pro-environmentally.'
 date: 2024-08-08
-venue: 'Forthcoming: Journal of Environmental Psychology'
+venue: 'Journal of Environmental Psychology'
 paperurl: 'http://rene-schwaiger.online/files/Nature.pdf'
 citation: 'Flecke, S.L., Huber, J., Kirchler, M., Schwaiger, R., (2024). Nature Experiences and Pro-Environmental Behavior: Evidence from a
-Randomized Controlled Trial, <i>Forthcoming: Journal of Environmental Psychology</i>.'
+Randomized Controlled Trial, <i>Journal of Environmental Psychology</i>, 99, 102383.'
 ---
 
 Abstract: Exposure to nature is positively associated with pro-environmental behavior, though causal evidence to date is

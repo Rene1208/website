@@ -12,7 +12,7 @@ redirect_from:
 <a id="about-me"></a>
 I am a Post Doctoral Researcher at the Department of Banking and Finance and the Scientific Coordinator of Lab
 Operations at the Innsbruck
-EconLab of the University of Innsbruck. My research delves into the intriguing realms of experimental economics,
+EconLab of the University of Innsbruck. My research focuses on experimental economics,
 especially environmental
 economics, experimental finance, and meta-science. With a background and a passion for uncovering new
 insights, I strive to contribute to our society and academic community.
@@ -35,8 +35,8 @@ methods. Key areas of my research include:
 Publications and Talks
 ======
 <a id="publications-talks"></a>
-Throughout my academic career, I have authored numerous publications and delivered talks at various conferences and
-seminars. These works reflect my dedication to advancing knowledge in my fields of expertise. You can explore my latest
+Throughout my academic career, I have authored numerous publications and given talks at various conferences and
+workshops. These works reflect my dedication to advancing knowledge in my fields of expertise. You can explore my latest
 [publications](/publications/) and [talks](/talks/).
 
 Teaching and Mentoring
@@ -44,7 +44,7 @@ Teaching and Mentoring
 <a id="teaching-mentoring"></a>
 In addition to my research, I am passionate about teaching and mentoring students at University but also practitioners
 at
-Banks or in their MBA studies. I offer courses in experimental economics and finance, aiming to equip
+Banks or in their MBA studies. I offer courses in economics and finance, aiming to equip
 students and practitioners with the
 skills and knowledge they need to succeed in their academic and professional careers. Check out my [courses](/teaching/)
 .
