@@ -9,5 +9,5 @@ location: "Berlin, Germany"
 ---
 
 <div style="text-align: justify; text-justify: inter-word;">I Spoke at the Open Science Day 2025 on our latest large-scale many-designs project on support for carbon pricing based on
-55 randomized controlled trials with real-world policy support outcomes.</div>
+55 randomized controlled trials with real-world policy support outcomes. We ran the study with roughly 20,000 general population subjects from the US, one of the major global polluters with no federal carbon tax in place.</div>
 

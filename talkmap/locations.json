@@ -34,5 +34,25 @@
     "Fountain Valley, California": [
         33.7038145,
         -117.9627349
+    ],
+    "Berlin, Germany": [
+        52.520008,
+        13.404954
+    ],
+    "Vilnius, Lithuania": [
+        54.687157,
+        25.279652
+    ],
+    "Maastricht, Netherlands": [
+        50.851368,
+        5.690973
+    ],
+    "Montpellier, France": [
+        43.6112422,
+        3.8767337
+    ],
+    "Padova, Italy": [
+        45.4064349,
+        11.8767611
     ]
 }
