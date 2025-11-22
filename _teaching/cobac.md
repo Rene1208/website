@@ -1,5 +1,5 @@
 ---
-title: "Co-supervision of Bachelor Theses"
+title: "Supervision of Bachelor Theses"
 collection: teaching
 type: "Undergraduate Supervision"
 permalink: /teaching/cobac
@@ -9,7 +9,7 @@ end_date: 2021-06-30
 location: "Innsbruck, Austria"
 ---
 
-Co-supervised bachelor theses on various topics within economics and finance, providing guidance on research
+I supervised bachelor theses on various topics within economics and finance, providing guidance on research
 methodologies, data analysis, and academic writing.
 
 ## Responsibilities
