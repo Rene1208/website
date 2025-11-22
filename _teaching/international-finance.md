@@ -4,8 +4,8 @@ collection: teaching
 type: "Graduate Course"
 permalink: /teaching/international-finance
 venue: "Danube University Krems, MBA Program"
-date: 2025-06
-end_date: 2025-06
+date: 2025-06-01
+end_date: 2025-06-30
 location: "Krems, Austria"
 ---
 
