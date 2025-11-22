@@ -1,5 +1,5 @@
 ---
-title: "Ethical Reflections and Sustainability (Lecture)"
+title: "Ethical Reflections and Sustainability (Lecture and Seminar)"
 collection: teaching
 type: "Graduate Course"
 permalink: /teaching/ethics-sustainability-lecture
