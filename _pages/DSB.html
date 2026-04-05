@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Span Test Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_general.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+</head>
+
+<body
+        data-language="en"
+        data-recall-forward="false"
+        data-initial-span="3"
+        data-max-span="9"
+        data-num-rounds="14"
+        data-timer="1000"
+        data-use-tts="true"
+        data-tts-rate="1.0"
+>
+
+<div class="box-header" id="page_title">Digit Span Test Demo</div>
+
+<div class="box">
+    <div class="card-body">
+
+        <input type="hidden" class="form-control" id="score_digits" name="score_digits">
+        <input type="hidden" id="n_correct" name="n_correct">
+        <input type="hidden" id="highest_digits" name="highest_digits">
+        <input type="hidden" id="correct_by_round" name="correct_by_round">
+        <input type="hidden" id="first_fail_round" name="first_fail_round">
+        <input type="hidden" id="avg_rt" name="avg_rt">
+        <input type="hidden" id="total_time" name="total_time">
+        <input type="hidden" id="max_streak" name="max_streak">
+
+        <!-- MODAL STRUCTURE -->
+        <div id="InstructionsModal"
+             class="modal"
+             role="dialog"
+             aria-labelledby="modalTitle"
+             aria-describedby="modalDescription">
+            <div class="modal-content">
+                <span class="close" aria-label="Close">&times;</span>
+                <div class="card-body">
+                    <h2 id="modalTitle" style="font-size: 20px;"></h2>
+                    <hr>
+                    <div id="modalDescription"></div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="center_elements">
+            <button type="button" class="btn2" id="instructions"></button>
+            <button type="button" class="btn2" id="start"></button>
+
+            <br><br><br><br>
+
+            <div id="border">
+                <span id="arrPrint"></span>
+            </div>
+
+            <br><br>
+
+            <label for="digit_input" id="digit_input_label" style="display: none;">Digit input</label>
+            <input type="text" id="digit_input" name="digit_input" inputmode="none" autocomplete="off" readonly>
+
+            <br><br><br>
+
+            <button id="enter_digits" class="btn2" disabled type="button"></button>
+
+            <br><br>
+
+            <div class="digit-buttons">
+                <button type="button" class="btn btn1" disabled>1</button>
+                <button type="button" class="btn btn1" disabled>2</button>
+                <button type="button" class="btn btn1" disabled>3</button>
+                <button type="button" class="btn btn1" disabled>4</button>
+                <button type="button" class="btn btn1" disabled>5</button>
+                <button type="button" class="btn btn1" disabled>6</button>
+                <button type="button" class="btn btn1" disabled>7</button>
+                <button type="button" class="btn btn1" disabled>8</button>
+                <button type="button" class="btn btn1" disabled>9</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<button class="otree-btn-next btn btn-primary" id="next_button" style="display: none;" type="button"></button>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const ds = document.body.dataset;
+
+        const LANGUAGE = (ds.language || 'en').toLowerCase();
+        const RECALL_FORWARD = String(ds.recallForward).toLowerCase() === 'true';
+        const INITIAL_SPAN = Number(ds.initialSpan) || 3;
+        const MAX_SPAN = Number(ds.maxSpan) || 9;
+        const NUM_REAL_ROUNDS = Number(ds.numRounds) || 14;
+        const TIMER = Number(ds.timer) || 1000;
+
+        const SPAN_PLUS_1 = INITIAL_SPAN + 1;
+        const SPAN_PLUS_2 = INITIAL_SPAN + 2;
+
+        const pageTitle = document.getElementById('page_title');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDescription = document.getElementById('modalDescription');
+        const instructionsBtn = document.getElementById('instructions');
+        const startBtn = document.getElementById('start');
+        const enterBtn = document.getElementById('enter_digits');
+        const digitInputLabel = document.getElementById('digit_input_label');
+        const nextBtn = document.getElementById('next_button');
+
+        if (LANGUAGE === 'de') {
+            document.documentElement.lang = 'de';
+            document.title = 'Ziffernspanne-Test';
+            pageTitle.textContent = 'Ziffernspanne-Test Demo';
+            modalTitle.textContent = 'Anleitung zur Aufgabe';
+            instructionsBtn.textContent = 'Anleitung';
+            startBtn.textContent = 'Übungsrunde starten';
+            enterBtn.textContent = 'Antwort bestätigen';
+            digitInputLabel.textContent = 'Zifferneingabe';
+            nextBtn.textContent = 'Weiter';
+
+            modalDescription.innerHTML = `
+            <p>
+                Eine mehrstellige Zahl wird in der Mitte des Bildschirms in einer <b>beigen Box</b>
+                angezeigt. Die Ziffern erscheinen <b>nacheinander im Abstand von ${TIMER}
+                Millisekunden</b> und verschwinden danach wieder vollständig.
+                <br><br>
+                Ihre Aufgabe ist es, <b>sich die gesamte Zahl zu merken und sie
+                ${RECALL_FORWARD ? 'in der gleichen Reihenfolge' : 'in umgekehrter Reihenfolge'}
+                </b>
+                in die vorgesehenen Eingabefelder unterhalb der beigen Box einzugeben
+                und anschließend durch Klick auf '<i>Antwort bestätigen</i>' zu bestätigen.
+                Die Tastatur kann nicht verwendet werden — Sie müssen die Ziffern mit der Maus bzw. durch
+                Antippen anklicken.
+                <br><br>
+                Beispiel: 6 8 2
+                <br>
+                Korrekte Antwort: ${RECALL_FORWARD ? '6 8 2' : '2 8 6'}
+            </p>
+
+            <p>
+                <b>Die Aufgabe startet nicht automatisch.</b>
+                Sie müssen jede Runde selbst starten.
+                Zu Beginn gibt es eine Übungsrunde mit einer <b>${INITIAL_SPAN}-stelligen Zahl</b>
+                (klicken Sie auf '<i>Übungsrunde starten</i>'), in der Sie kurzes Feedback zu Ihrer Eingabe
+                und zur korrekten Lösung erhalten.
+                <br><br>
+                Danach können Sie den eigentlichen Test starten
+                (klicken Sie auf '<i>Test starten</i>').
+                Ab diesem Zeitpunkt erhalten Sie kein Feedback mehr darüber,
+                ob Ihre Eingaben korrekt oder inkorrekt waren.
+                Insgesamt gibt es <b>${NUM_REAL_ROUNDS} Runden plus die Übungsrunde zu Beginn.
+                Es gibt kein Zeitlimit.</b>
+            </p>
+
+            <p>
+                Die Aufgabe beginnt in der ersten Runde ebenfalls mit einer <b>${INITIAL_SPAN}-stelligen Zahl</b>.
+                Nach jeweils zwei Runden erhöht sich der Schwierigkeitsgrad automatisch um eine weitere Ziffer,
+                sobald Sie die nächste Runde starten (klicken Sie auf '<i>Nächste Runde starten</i>').
+                <br><br>
+                Ab der dritten Runde wird eine ${SPAN_PLUS_1}-stellige Zahl angezeigt,
+                ab der fünften Runde eine ${SPAN_PLUS_2}-stellige Zahl usw.
+                In den letzten Runden wird schließlich eine <b>${MAX_SPAN}-stellige Zahl</b> angezeigt.
+                <br><br>
+                <b>Sie haben pro Runde nur einen einzigen Versuch</b>,
+                die Ziffern korrekt einzugeben.
+                Bitte geben Sie die Zahl sorgfältig Ziffer für Ziffer ein,
+                da es <b>nicht möglich</b> ist, bereits eingegebene Ziffern zu löschen.
+            </p>
+
+            <p>
+                Bitte konzentrieren Sie sich vollständig auf die Aufgabe und klicken Sie
+                '<i>Test starten</i>' oder '<i>Nächste Runde starten</i>' nur,
+                wenn Sie bereit sind.
+            </p>
+        `;
+        } else {
+            document.documentElement.lang = 'en';
+            document.title = 'Digit Span Test';
+            pageTitle.textContent = 'Digit Span Test Demo';
+            modalTitle.textContent = 'Instructions for the task';
+            instructionsBtn.textContent = 'Instructions';
+            startBtn.textContent = 'Start Trial Round';
+            enterBtn.textContent = 'Confirm answer';
+            digitInputLabel.textContent = 'Digit input';
+            nextBtn.textContent = 'Continue';
+
+            modalDescription.innerHTML = `
+            <p>
+                A multi-digit number will be displayed in the center of the screen within
+                a <b>beige box</b>. Its digits will appear <b>sequentially at intervals of ${TIMER}
+                milliseconds</b> and then disappear again.
+                <br><br>
+                Your task is to <b>remember the entire number and enter it
+                ${RECALL_FORWARD ? 'in forward order' : 'in reverse order'}
+                </b>
+                into the provided input fields below the beige box and confirm by clicking on
+                '<i>Confirm answer</i>'.
+                You cannot use the keyboard; you must click on the digit fields.
+                <br><br>
+                Example: 6 8 2
+                <br>
+                Correct answer: ${RECALL_FORWARD ? '6 8 2' : '2 8 6'}
+            </p>
+
+            <p>
+                <b>The task does not start automatically.</b>
+                You must start each round yourself.
+                At the beginning, you will complete a practice round with a <b>${INITIAL_SPAN}-digit number</b>
+                (click '<i>Start Trial Round</i>'), where short feedback on your input and the correct
+                solution is displayed.
+                <br><br>
+                After that, you can start the actual task
+                (click '<i>Start Test</i>').
+                From this point on, you will no longer receive feedback on whether your entries are correct
+                or incorrect.
+                There are <b>${NUM_REAL_ROUNDS} rounds plus the trial round at the beginning.
+                There is no time limit.</b>
+            </p>
+
+            <p>
+                The task also begins in the first round with a <b>${INITIAL_SPAN}-digit number</b>.
+                After every second round, the difficulty level increases automatically by one digit
+                when you start the next round (click '<i>Start Next Round</i>').
+                <br><br>
+                From the third round onward, a ${SPAN_PLUS_1}-digit number is displayed,
+                from the fifth round a ${SPAN_PLUS_2}-digit number, and so on.
+                In the final rounds, a <b>${MAX_SPAN}-digit number</b> is displayed.
+                <br><br>
+                <b>You only have one attempt in each round</b> to correctly enter the digits.
+                Please carefully input each digit,
+                as it is <b>not possible</b> to delete a digit once entered.
+            </p>
+
+            <p>
+                Please focus fully on the task and only click
+                '<i>Start Test</i>' or '<i>Start Next Round</i>'
+                when you are ready.
+            </p>
+        `;
+        }
+
+        nextBtn.addEventListener('click', function () {
+            const doneTitle = LANGUAGE === 'de' ? 'Demo beendet' : 'Demo finished';
+            const doneText = LANGUAGE === 'de'
+                ? 'Dies ist eine Standalone-Demo ohne Datenspeicherung.'
+                : 'This is a standalone demo without data storage.';
+
+            Swal.fire({
+                title: doneTitle,
+                text: doneText,
+                icon: 'info',
+                confirmButtonColor: '#B99A70'
+            });
+        });
+    });
+</script>
+
+<script src="scripts_digits_task.js" defer></script>
+</body>
+</html>
