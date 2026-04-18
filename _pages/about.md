@@ -1,71 +1,62 @@
 ---
 permalink: /
-title: "Rene Schwaiger"
+title: "Welcome to my Academic Website"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<section class="home-hero">
-  <p class="eyebrow">Experimental economics | finance | climate policy | metascience</p>
-  <h1>Rigorous experimental research on how people make decisions when incentives, institutions, and social consequences collide.</h1>
-  <p class="lead">I am a Postdoctoral Researcher and Senior Lecturer at the Department of Banking and Finance, University of Innsbruck, and Scientific Coordinator of Lab Operations at the Innsbruck EconLab. My work uses experiments, field evidence, and crowd-science designs to study environmental policy, financial decision-making, social preferences, and research credibility.</p>
-  <div class="hero-actions">
-    <a class="btn btn--primary" href="/publications/">Publications</a>
-    <a class="btn btn--inverse" href="/talks/">Talks</a>
-    <a class="btn btn--inverse" href="/CVsource/CV_Rene_Schwaiger.pdf">Download CV</a>
-  </div>
-</section>
+<a id="about-me"></a>
+I am a Postdoctoral Researcher at the Department of Banking and Finance and Scientific Coordinator of Lab Operations at
+the Innsbruck EconLab, University of Innsbruck. My research focuses on experimental economics, with particular interests
+in environmental economics, finance, and meta-science.
 
-<section class="metric-grid" aria-label="Academic profile highlights">
-  <div>
-    <strong>11</strong>
-    <span>peer-reviewed journal articles</span>
-  </div>
-  <div>
-    <strong>3</strong>
-    <span>working papers under review</span>
-  </div>
-  <div>
-    <strong>20+</strong>
-    <span>conference, seminar, and workshop talks</span>
-  </div>
-  <div>
-    <strong>34</strong>
-    <span>countries in recent collective-action research</span>
-  </div>
-</section>
+I study how individuals make decisions in economically and socially relevant contexts, with a focus on experimental
+methods and rigorous empirical research. On this website, you can find information about my research, publications,
+teaching, and academic activities.
 
-Research Focus
+Research Interests
 ======
+<a id="research-interests"></a>
 
-My research centers on causal evidence about economic behavior in settings where individual decisions aggregate into societal outcomes. I work across three connected areas:
+My research centers on the use of experimental methods to causally understand economic behavior and public attitudes
+toward important societal challenges. My main research areas are:
 
-- **Environmental and climate economics:** carbon pricing, carbon dividends, climate misbeliefs, pro-environmental behavior, and collective action.
-- **Experimental finance:** risk-taking, myopic loss aversion, investor expectations, financial decision-making, and cognitive fatigue.
-- **Metascience and crowd science:** reproducibility, many-designs projects, decision markets, analytical heterogeneity, and research transparency.
+- **Experimental Environmental Economics:** Studying preferences, beliefs, and behavior related to environmental policy
+  and collective action.
+- **Experimental Finance:** Examining financial decision-making and market behavior in controlled experimental settings.
+- **Meta-Science:** Investigating research practices, transparency, and reproducibility to improve the credibility and
+  robustness of scientific evidence as well as crowd-science approaches to research.
 
-Recent Work
+Publications and Talks
 ======
+<a id="publications-talks"></a>
 
-Recent publications include work in *Proceedings of the National Academy of Sciences*, *Management Science*, *Nature Human Behaviour*, *Journal of Environmental Psychology*, *Journal of Economic Behavior and Organization*, *Journal of Public Economics*, *Journal of Behavioral and Experimental Economics*, and *Economics Letters*.
+My work includes research articles, conference presentations, and invited talks in the areas of experimental economics,
+finance, and meta-science. A current overview of my academic output is available on the [publications](/publications/)
+and [talks](/talks/) pages.
 
-Current projects include work on decision flexibility and myopic loss aversion, a digital Digit Span Backwards task for measuring cognitive fatigue in the lab, behavioral interventions for carbon-pricing support, visible tax dividends, strategic analyses in research, and climate misinformation.
-
-Academic Roles
+Teaching and Mentoring
 ======
+<a id="teaching-mentoring"></a>
 
-I am based at the University of Innsbruck, where I conduct research, teach in economics and finance programs, coordinate lab operations at the Innsbruck EconLab, supervise theses, and contribute to curriculum and committee work. I am also a contributing author to the Austrian Assessment Report on Climate Change 2 in the chapter on demand-side transformations toward net zero.
+In addition to research, I am actively involved in teaching and mentoring. I teach courses in economics and finance and
+work with students and practitioners in academic and professional programs, including executive and MBA-level teaching.
+More information is available on the [teaching](/teaching/) page.
 
-Selected Recognition
+Get in Touch
 ======
+<a id="get-in-touch"></a>
 
-- Clemens August Andreae Prize for the best dissertation in economics at the University of Innsbruck.
-- Schrödinger Program C2 revision for a one-year research stay at Yale School of Management with a return phase.
-- Research grants from the Tyrolean Science Funding program, Kaiserschild Stiftung, BAFIT, the University of Innsbruck, and the Bank Austria Foundation.
+I welcome opportunities for collaboration and academic exchange. If you would like to discuss research, teaching, or
+related topics, feel free to contact me via email at [rene.schwaiger@uibk.ac.at](mailto:rene.schwaiger@uibk.ac.at) or
+connect with me on [LinkedIn](https://www.linkedin.com/in/rene-schwaiger-57a4b3bb).
 
-Contact
+Stay Connected
 ======
+<a id="stay-connected"></a>
 
-I welcome collaboration and academic exchange. You can reach me at [rene.schwaiger@uibk.ac.at](mailto:rene.schwaiger@uibk.ac.at), find my work on [Google Scholar](https://scholar.google.com/citations?user=FKR8WdMAAAAJ), [ORCID](https://orcid.org/0000-0003-2607-5986), and [ResearchGate](https://www.researchgate.net/profile/Rene-Schwaiger), or connect with me on [LinkedIn](https://www.linkedin.com/in/rene-schwaiger-57a4b3bb).
+You can also find my academic profiles
+on [ResearchGate](https://www.researchgate.net/profile/Rene-Schwaiger), [Google Scholar](https://scholar.google.com/citations?user=FKR8WdMAAAAJ),
+and [ORCID](https://orcid.org/0000-0003-2607-5986).

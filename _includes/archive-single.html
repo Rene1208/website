@@ -41,9 +41,9 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'working-paper' %}
+          {% if post.publication_type == 'working-paper' %}
             <p>{{ post.status | default: "Working paper" }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% elsif post.category == 'preprint' %}
+          {% elsif post.publication_type == 'preprint' %}
             <p>Preprint, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% else %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>

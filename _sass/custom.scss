@@ -100,47 +100,6 @@ a:hover {
   color: var(--muted);
 }
 
-.home-hero {
-  margin: 0 0 2rem;
-  padding: 2.25rem;
-  background:
-    linear-gradient(135deg, rgba(13, 102, 92, 0.12), rgba(49, 95, 140, 0.08)),
-    var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  box-shadow: 0 24px 70px rgba(23, 33, 43, 0.10);
-}
-
-.home-hero .eyebrow {
-  margin: 0 0 0.8rem;
-  color: var(--accent);
-  font-size: 0.82rem;
-  font-weight: 750;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.home-hero h1 {
-  margin: 0 0 1rem;
-  max-width: 980px;
-  color: var(--ink);
-  font-size: 2rem;
-  line-height: 1.16;
-}
-
-.home-hero .lead {
-  max-width: 900px;
-  color: #34414d;
-  font-size: 1.08rem;
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  margin-top: 1.4rem;
-}
-
 .btn,
 .btn--primary,
 .btn--inverse {
@@ -155,36 +114,6 @@ a:hover {
 .btn--inverse {
   background: var(--nav);
   color: #fff;
-}
-
-.metric-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.85rem;
-  margin: 0 0 2rem;
-}
-
-.metric-grid div {
-  min-height: 8rem;
-  padding: 1rem;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-}
-
-.metric-grid strong {
-  display: block;
-  color: var(--accent-2);
-  font-size: 2rem;
-  line-height: 1;
-}
-
-.metric-grid span {
-  display: block;
-  margin-top: 0.7rem;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.35;
 }
 
 .intro-panel {
@@ -225,7 +154,7 @@ a:hover {
 }
 
 .map-frame {
-  width: 100%;
+  width: min(100%, 1100px);
   overflow: hidden;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -236,7 +165,8 @@ a:hover {
 .map-frame iframe {
   display: block;
   width: 100%;
-  height: 700px;
+  min-height: 700px;
+  height: 75vh;
   border: 0;
 }
 
@@ -248,9 +178,6 @@ a:hover {
     padding: 0 1rem;
   }
 
-  .metric-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -259,27 +186,8 @@ a:hover {
     padding-top: 58px;
   }
 
-  .home-hero {
-    padding: 1.25rem;
-  }
-
-  .home-hero h1 {
-    font-size: 1.55rem;
-  }
-
-  .home-hero .lead {
-    font-size: 1rem;
-  }
-
-  .metric-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .metric-grid div {
-    min-height: auto;
-  }
-
   .map-frame iframe {
-    height: 520px;
+    min-height: 560px;
+    height: 70vh;
   }
 }
