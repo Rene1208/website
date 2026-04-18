@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<div class="landing-copy" markdown="1">
+
 <a id="about-me"></a>
 I am a Postdoctoral Researcher at the Department of Banking and Finance and Scientific Coordinator of Lab Operations at
 the Innsbruck EconLab, University of Innsbruck. My research focuses on experimental economics, with particular interests
@@ -60,3 +62,5 @@ Stay Connected
 You can also find my academic profiles
 on [ResearchGate](https://www.researchgate.net/profile/Rene-Schwaiger), [Google Scholar](https://scholar.google.com/citations?user=FKR8WdMAAAAJ),
 and [ORCID](https://orcid.org/0000-0003-2607-5986).
+
+</div>

@@ -145,6 +145,14 @@ a:hover {
   text-justify: inter-word;
 }
 
+.landing-copy,
+.landing-copy p,
+.landing-copy li {
+  hyphens: auto;
+  text-align: justify !important;
+  text-justify: inter-word;
+}
+
 .page__content p,
 .archive__item-excerpt {
   color: var(--ink);
