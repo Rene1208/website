@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<div class="intro-panel">The current CV includes academic appointments, peer-reviewed publications, working papers, talks, teaching, service, grants, awards, education, skills, and references.</div>
+<div class="intro-panel">The current CV includes academic appointments, peer-reviewed publications, working papers, talks, teaching, grants, awards, education, skills, and references.</div>
 
 [Download CV (PDF)]({{ site.url }}/CVsource/CV_Rene_Schwaiger.pdf){: .btn .btn--primary}
