@@ -43,6 +43,8 @@
         {% elsif post.collection == 'publications' %}
           {% if post.publication_type == 'working-paper' %}
             <p>{{ post.status | default: "Working paper" }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% elsif post.publication_type == 'work-in-progress' %}
+            <p>{{ post.status | default: "Work in progress" }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% elsif post.publication_type == 'preprint' %}
             <p>Preprint, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% else %}

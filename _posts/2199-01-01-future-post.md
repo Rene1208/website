@@ -2,6 +2,8 @@
 title: "Exciting Future Blog Posts on Experimental Research and Statistics"
 date: 2024-07-01
 permalink: /posts/2024/07/future-blog-posts/
+published: false
+sitemap: false
 tags:
 
 - experimental research
