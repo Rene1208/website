@@ -1,6 +1,6 @@
 :root {
   --site-bg: #f2f3f3;
-  --surface: #f2f3f3;
+  --surface: #eceeee;
   --ink: #17212b;
   --muted: rgba(23, 33, 43, 0.68);
   --line: rgba(23, 33, 43, 0.14);
@@ -129,6 +129,13 @@ a:hover {
 
 .page__inner-wrap {
   text-align: left;
+}
+
+body.home .page__inner-wrap,
+body.home .page__content {
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .page__content p,
