@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   {% include head.html %}
   {% include head/custom.html %}
@@ -33,66 +35,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOMContentLoaded event fired');
-    // Add 'fade-in' class to body
     document.body.classList.add('fade-in');
-
-    // Handle site navigation
-    const siteNav = document.getElementById('site-nav');
-    if (!siteNav) {
-      console.error('Site navigation element not found');
-      return;
-    }
-
-    const button = siteNav.querySelector('button');
-    const visibleLinks = siteNav.querySelector('.visible-links');
-    const hiddenLinks = siteNav.querySelector('.hidden-links');
-    let resizeTimeout;
-    let lastInnerWidth = window.innerWidth;
-
-    function handleResize() {
-      clearTimeout(resizeTimeout);
-
-      const currentInnerWidth = window.innerWidth;
-      const isMaximized = currentInnerWidth === screen.width;
-      const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
-
-      if ((isMaximized || (!isFullscreen && lastInnerWidth === screen.width)) && currentInnerWidth !== lastInnerWidth) {
-        document.body.classList.add('hidden'); // Hide the body
-        resizeTimeout = setTimeout(() => {
-          document.body.classList.remove('hidden'); // Show the body again
-          adjustNav();
-        }, 1); // Short delay for hiding
-      } else {
-        adjustNav();
-      }
-
-      lastInnerWidth = currentInnerWidth;
-    }
-
-    function adjustNav() {
-      if (window.innerWidth > 768) {
-        // Move items back to the visible list
-        while (hiddenLinks.children.length > 0) {
-          visibleLinks.appendChild(hiddenLinks.children[0]);
-        }
-        button.style.display = 'none'; // Hide button on large screens
-      } else {
-        // Ensure toggle button is visible if the window is resized to a smaller size
-        if (hiddenLinks.children.length > 0) {
-          button.style.display = 'block';
-        } else {
-          button.style.display = 'none';
-        }
-      }
-    }
-
-    window.addEventListener('resize', handleResize);
-    document.addEventListener('fullscreenchange', handleResize);
-    document.addEventListener('webkitfullscreenchange', handleResize);
-
-    // Initial call to handleResize to set up the initial state
-    handleResize();
   });
 </script>
 

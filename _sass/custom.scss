@@ -14,7 +14,7 @@ html,
 body {
   background: var(--site-bg);
   color: var(--ink);
-  font-family: var(--font-sans);
+  font-family: var(--font-sans) !important;
   font-weight: 400;
 }
 
@@ -23,7 +23,26 @@ body {
   line-height: 1.54;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
   text-rendering: optimizeLegibility;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.page,
+.archive,
+.sidebar,
+.masthead,
+.greedy-nav,
+.author__content,
+.author__bio,
+.author__urls,
+.archive__item,
+.page__content {
+  font-family: var(--font-sans) !important;
 }
 
 a {
@@ -118,9 +137,20 @@ a:hover {
 }
 
 .page__title,
+.archive .page__title,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.archive__item-title,
+.author__name,
+.masthead__menu-item,
+.greedy-nav a {
+  font-family: var(--font-display) !important;
+}
+
+.page__title,
 .archive .page__title {
   color: var(--ink);
-  font-family: var(--font-display);
   font-weight: 780;
   font-size: 1.5rem;
   line-height: 1.16;
@@ -130,7 +160,6 @@ a:hover {
 .page__content h2,
 .page__content h3 {
   color: var(--ink);
-  font-family: var(--font-display);
   font-weight: 760;
   letter-spacing: 0;
   line-height: 1.22;
@@ -147,7 +176,6 @@ a:hover {
 }
 
 .author__name {
-  font-family: var(--font-display);
   font-weight: 760;
   letter-spacing: 0;
 }
@@ -198,7 +226,6 @@ a:hover {
 
 .archive__item-title {
   margin-top: 0;
-  font-family: var(--font-display);
   font-size: 1rem;
   line-height: 1.25;
   font-weight: 760;
