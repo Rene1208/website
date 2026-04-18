@@ -3,64 +3,60 @@ permalink: /
 title: "Welcome to my Academic Website"
 author_profile: true
 redirect_from:
-
-- /about/
-- /about.html
-
+  - /about/
+  - /about.html
 ---
 
 <a id="about-me"></a>
-I am a Post Doctoral Researcher at the Department of Banking and Finance and the Scientific Coordinator of Lab
-Operations at the Innsbruck
-EconLab of the University of Innsbruck. My research focuses on experimental economics,
-especially environmental
-economics, experimental finance, and meta-science. With a background and a passion for uncovering new
-insights, I strive to contribute to our society and academic community.
+I am a Postdoctoral Researcher at the Department of Banking and Finance and Scientific Coordinator of Lab Operations at
+the Innsbruck EconLab, University of Innsbruck. My research focuses on experimental economics, with particular interests
+in environmental economics, finance, and meta-science.
+
+I study how individuals make decisions in economically and socially relevant contexts, with a focus on experimental
+methods and rigorous empirical research. On this website, you can find information about my research, publications,
+teaching, and academic activities.
 
 Research Interests
 ======
 <a id="research-interests"></a>
-My research is driven by a commitment to understanding complex economic and societal phenomena through innovative
-experimental
-methods. Key areas of my research include:
 
-- Experimental Environmental Economics: Exploring how individuals and groups make decisions about environmental
-  resources
-  and policies.
-- Experimental Finance: Investigating financial behavior and market dynamics using controlled experiments.
-- Meta-Science: Enhancing the rigor and replicability and reproducibility of scientific research by studying research
-  practices and
-  methodologies.
+My research centers on the use of experimental methods to causally understand economic behavior and public attitudes
+toward important societal challenges. My main research areas are:
+
+- **Experimental Environmental Economics:** Studying preferences, beliefs, and behavior related to environmental policy
+  and collective action.
+- **Experimental Finance:** Examining financial decision-making and market behavior in controlled experimental settings.
+- **Meta-Science:** Investigating research practices, transparency, and reproducibility to improve the credibility and
+  robustness of scientific evidence as well as crowd-sciecnce approaches to research.
 
 Publications and Talks
 ======
 <a id="publications-talks"></a>
-Throughout my academic career, I have authored numerous publications and given talks at various conferences and
-workshops. These works reflect my dedication to advancing knowledge in my fields of expertise. You can explore my latest
-[publications](/publications/) and [talks](/talks/).
+
+My work includes research articles, conference presentations, and invited talks in the areas of experimental economics,
+finance, and meta-science. A current overview of my academic output is available on the [publications](/publications/)
+and [talks](/talks/) pages.
 
 Teaching and Mentoring
 ======
 <a id="teaching-mentoring"></a>
-In addition to my research, I am passionate about teaching and mentoring students at University but also practitioners
-at
-Banks or in their MBA studies. I offer courses in economics and finance, aiming to equip
-students and practitioners with the
-skills and knowledge they need to succeed in their academic and professional careers. Check out my [courses](/teaching/)
-.
+
+In addition to research, I am actively involved in teaching and mentoring. I teach courses in economics and finance and
+work with students and practitioners in academic and professional programs, including executive and MBA-level teaching.
+More information is available on the [teaching](/teaching/) page.
 
 Get in Touch
 ======
 <a id="get-in-touch"></a>
-I welcome opportunities for collaboration, discussion, and engagement. Whether you are a fellow researcher, a student,
-or simply interested in my work, feel free to reach out. You can contact me via email
-at [rene.schwaiger@uibk.ac.at](mailto:rene.schwaiger@uibk.ac.at) or
+
+I welcome opportunities for collaboration and academic exchange. If you would like to discuss research, teaching, or
+related topics, feel free to contact me via email at [rene.schwaiger@uibk.ac.at](mailto:rene.schwaiger@uibk.ac.at) or
 connect with me on [LinkedIn](https://www.linkedin.com/in/rene-schwaiger-57a4b3bb).
 
 Stay Connected
 ======
 <a id="stay-connected"></a>
-Follow my journey and stay updated on my latest research, publications, and events by connecting with me on
-[ResearchGate](https://www.researchgate.net/profile/Rene-Schwaiger)
-, [Google Scholar](https://scholar.google.com/citations?user=FKR8WdMAAAAJ),
+
+You can also find my academic profiles
+on [ResearchGate](https://www.researchgate.net/profile/Rene-Schwaiger), [Google Scholar](https://scholar.google.com/citations?user=FKR8WdMAAAAJ),
 and [ORCID](https://orcid.org/0000-0003-2607-5986).
