@@ -1,13 +1,11 @@
 :root {
-  --site-bg: #f4f4f1;
-  --surface: #fffefa;
-  --ink: #1d252c;
-  --muted: #65717a;
-  --line: #d8ddd8;
-  --nav: #18242f;
-  --accent: #6aa092;
-  --accent-dark: #2f6f66;
-  --accent-soft: #e5f0ed;
+  --site-bg: #f2f3f3;
+  --surface: #f2f3f3;
+  --ink: #17212b;
+  --muted: rgba(23, 33, 43, 0.68);
+  --line: rgba(23, 33, 43, 0.14);
+  --nav: #17212b;
+  --accent: #17212b;
 }
 
 html,
@@ -27,7 +25,7 @@ body {
 }
 
 a {
-  color: var(--accent-dark);
+  color: var(--ink);
 }
 
 a:hover {
@@ -66,7 +64,7 @@ a:hover {
 
 .greedy-nav a,
 .masthead__menu-item {
-  color: #eef3f1;
+  color: var(--site-bg);
   font-size: 0.9rem;
   font-weight: 650;
   letter-spacing: 0;
@@ -74,7 +72,8 @@ a:hover {
 }
 
 .greedy-nav a:hover {
-  color: #ffffff;
+  color: var(--site-bg);
+  opacity: 0.78;
 }
 
 .masthead__menu-item {
@@ -148,12 +147,12 @@ a:hover {
 }
 
 .btn--primary {
-  background: var(--accent-dark);
+  background: var(--nav);
 }
 
 .btn--inverse {
   background: var(--nav);
-  color: #fff;
+  color: var(--site-bg);
 }
 
 .intro-panel {
@@ -163,7 +162,7 @@ a:hover {
   border: 1px solid var(--line);
   border-left: 4px solid var(--accent);
   border-radius: 6px;
-  color: #364149;
+  color: var(--ink);
   font-size: 0.95rem;
 }
 
@@ -188,7 +187,8 @@ a:hover {
 }
 
 .archive__item-title a:hover {
-  color: var(--accent-dark);
+  color: var(--ink);
+  opacity: 0.78;
 }
 
 .page__meta {
