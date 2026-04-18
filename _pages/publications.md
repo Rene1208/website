@@ -1,12 +1,12 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications and Working Papers"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find all my publications and working papers on <a href="https://scholar.google.com/citations?hl=de&view_op=list_works&gmla=AOAOcb0olUdVNJVR41TpQOJ2WojWEqnM86g1rt5FWGqJDzaWh2P37cyjkwvly19LVc9_foxE0oWVNTpEFX7s0UPSREny8pXjeUwJNZnI1I87PmSGV9T-91sd9NmUZAjlbjU&user=FKR8WdMAAAAJ">my Google Scholar profile</a>.</div>
+  <div class="intro-panel">A current overview of peer-reviewed publications, working papers, and preprints. You can also find my work on <a href="https://scholar.google.com/citations?user=FKR8WdMAAAAJ">Google Scholar</a>.</div>
 {% endif %}
 
 {% include base_path %}

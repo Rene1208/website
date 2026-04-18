@@ -1,16 +1,14 @@
 ---
-title: "Corporate Decision-Making and Societal Responsibility"
+title: "Corporate Decision-Making"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/2022-corporate-decision-making-societal-responsibility
-venue: "University of Innsbruck, Department of Economics"
+venue: "University of Innsbruck, B.Sc. Management and Economics"
 date: 2022-01-01
 location: "Innsbruck, Austria"
 ---
 
-This course examines the intersection of corporate decision-making and societal responsibility, with a focus on
-sustainable and ethical business practices. The course is structured to include lectures, discussions, and group
-presentations to deepen understanding and practical application of the topics.
+This course examines corporate decision-making in economic and societal context. I teach the seminar from 2022 onward and taught the lecture in winter 2024/25.
 
 ## Course Goals
 

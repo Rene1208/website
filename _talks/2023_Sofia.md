@@ -1,8 +1,8 @@
 ---
-title: "Experimental Finance Conference 2022"
+title: "Experimental Finance Conference 2023"
 collection: talks
 type: "Talk"
-permalink: /talks/2024_Sofia
+permalink: /talks/2023_Sofia
 venue: "Grand Hotel Sofia"
 date: 2023-06-20
 location: "Sofia, Bulgaria"

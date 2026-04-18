@@ -8,7 +8,7 @@ date: 2024-05-24
 location: "Innsbruck, Austria"
 ---
 
-This course focuses on advanced portfolio management strategies, investment analysis, and risk management. It is
+This recurring professional seminar focuses on advanced portfolio management strategies, investment analysis, and risk management. It is
 designed for professionals seeking to enhance their expertise in financial markets and portfolio management.
 
 ## Course Content

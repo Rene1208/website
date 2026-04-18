@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate Supervision"
 permalink: /teaching/msc-supervision
 venue: "University of Innsbruck, M.Sc. Banking and Finance"
-date: 2024-03-01
+date: 2024-01-01
 location: "Innsbruck, Austria"
 ---
 
@@ -22,7 +22,7 @@ provided along every stage of the research project.
 
 - Financial Markets
 - Behavioral and Experimental Finance
-- ESG
+- ESG and sustainable finance
 - Meta-Science and Open Science in Economics and Finance
 
 ## Impact

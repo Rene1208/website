@@ -5,13 +5,13 @@ permalink: /publication/2024_Replication
 excerpt: 'We implemented a decision market on 41 systematically selected MTurk social science experiments published in
 PNAS between 2015 and 2018. Social scientists traded on the outcome of direct replications, knowing that certain studies
 would be selected for replication based on market prices.'
-date: 2024-08-08
-venue: 'Forthcoming: Nature Human Behavior'
+date: 2024-12-01
+venue: 'Nature Human Behaviour'
 paperurl: 'http://rene-schwaiger.online/files/Replication.pdf'
 citation: 'Holzmeister, F., Johannesson, M., Camerer, C. F., Chen, Y., Ho, T-H., Hoogeveen, S., Huber, J., Imai, N.,
 Imai, T., Jin, L., Kirchler, M., Ly, A., Mandl, B., Manfredi, D., Nave, G., Nosek, B. A., Pfeiffer, T., Sarafoglou, A.,
 Schwaiger, R., Wagenmakers, E-J., Waldén, V., Dreber, A. (2024). Replication by Plebiscite: Examining the Replicability
-of Online Experiments Selected by a Decision Market, <i>Forthcoming: Nature Human Behavior</i>.'
+of Online Experiments Selected by a Decision Market. <i>Nature Human Behaviour</i>, 9, 316-330.'
 ---
 
 Abstract: We implemented a decision market on 41 systematically selected MTurk social science experiments published in

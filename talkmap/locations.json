@@ -1,58 +1,58 @@
 {
   "Innsbruck, Austria": [
-    47.2654296,
-    11.3927685
+    47.2692,
+    11.4041
+  ],
+  "Linz, Austria": [
+    48.3069,
+    14.2858
   ],
   "Bonn, Germany": [
-    50.735851,
-    7.10066
-  ],
-  "Nijmegen, Netherlands": [
-    51.842574850000005,
-    5.838960628748229
-  ],
-  "Singapore, Singapore": [
-    1.2899175,
-    103.8519072
-  ],
-  "Venice, Italy": [
-    45.4371908,
-    12.3345898
-  ],
-  "Sofia, Bulgaria": [
-    42.6977028,
-    23.3217359
-  ],
-  "Buenos Aires, Argentina": [
-    -34.6037181,
-    -58.38153
-  ],
-  "Linz, \u00d6sterreich": [
-    48.3059078,
-    14.286198
-  ],
-  "Fountain Valley, California": [
-    33.7038145,
-    -117.9627349
+    50.7374,
+    7.0982
   ],
   "Berlin, Germany": [
-    52.520008,
-    13.404954
-  ],
-  "Vilnius, Lithuania": [
-    54.687157,
-    25.279652
-  ],
-  "Maastricht, Netherlands": [
-    50.851368,
-    5.690973
+    52.52,
+    13.405
   ],
   "Montpellier, France": [
-    43.6112422,
-    3.8767337
+    43.6119,
+    3.8772
+  ],
+  "Maastricht, Netherlands": [
+    50.8514,
+    5.691
+  ],
+  "Nijmegen, Netherlands": [
+    51.8126,
+    5.8372
+  ],
+  "Vilnius, Lithuania": [
+    54.6872,
+    25.2797
   ],
   "Padova, Italy": [
-    45.4064349,
-    11.8767611
+    45.4064,
+    11.8768
+  ],
+  "Venice, Italy": [
+    45.4408,
+    12.3155
+  ],
+  "Sofia, Bulgaria": [
+    42.6977,
+    23.3219
+  ],
+  "Buenos Aires, Argentina": [
+    -34.6037,
+    -58.3816
+  ],
+  "Singapore": [
+    1.3521,
+    103.8198
+  ],
+  "Fountain Valley, California": [
+    33.7092,
+    -117.9537
   ]
 }

@@ -5,11 +5,10 @@ type: "Graduate Course"
 permalink: /teaching/ethics-sustainability-lecture
 venue: "University of Innsbruck, M.Sc. Banking and Finance"
 date: 2025-03-01
-end_date: 2025-05-30
 location: "Innsbruck, Austria"
 ---
 
-This lecture explores ethical frameworks, sustainability principles, and their implications for financial markets and
+This lecture and seminar sequence explores ethical frameworks, sustainability principles, and their implications for financial markets and
 corporate decision-making. Students develop an understanding of responsible management and the societal impacts of
 financial activity.
 

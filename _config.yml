@@ -11,7 +11,7 @@ locale: "en-US"
 title: "Rene Schwaiger, PhD"
 title_separator: "-"
 name: &name "Rene Schwaiger, PhD"
-description: &description "personal description"
+description: &description "Experimental economist studying environmental economics, finance, and metascience."
 url: https://rene-schwaiger.online # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "academicpages/academicpages.github.io"
@@ -24,11 +24,7 @@ author:
   avatar: "profile.png"
   name: "Rene Schwaiger, PhD"
   pronouns: # example: "she/her"
-  bio: "I am a Post Doctoral Researcher at the Department of Banking and Finance and the Scientific Coordinator of Lab
-Operations at the Innsbruck
-EconLab at the University of Innsbruck. My research focuses on experimental economics,
-especially environmental
-economics, experimental finance, and meta-science."
+  bio: "Postdoctoral Researcher and Senior Lecturer at the Department of Banking and Finance, University of Innsbruck; Scientific Coordinator of Lab Operations at the Innsbruck EconLab. I study environmental economics, experimental finance, and metascience."
   location: "Innsbruck"
   employer: "University of Innsbruck"
   uri: "https://www.uibk.ac.at/de/ibf/team/schwaiger/"

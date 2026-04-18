@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV by clicking the link below:
+<div class="intro-panel">The current CV includes academic appointments, peer-reviewed publications, working papers, talks, teaching, service, grants, awards, education, skills, and references.</div>
 
-[Download CV (PDF)]({{ site.url }}/CVsource/CV_Rene_Schwaiger.pdf)
-
+[Download CV (PDF)]({{ site.url }}/CVsource/CV_Rene_Schwaiger.pdf){: .btn .btn--primary}
