@@ -40,7 +40,7 @@ a:hover {
 }
 
 .masthead {
-  border-bottom: 3px solid var(--accent);
+  border-bottom: 0;
 }
 
 .greedy-nav {
@@ -130,8 +130,8 @@ a:hover {
 }
 
 .author__avatar img {
-  border: 3px solid var(--surface);
-  box-shadow: 0 18px 45px rgba(23, 33, 43, 0.16);
+  border: 0;
+  box-shadow: none;
 }
 
 .author__content,
@@ -160,7 +160,7 @@ a:hover {
   padding: 0.9rem 1rem;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-left: 4px solid var(--accent);
+  border-left: 1px solid var(--line);
   border-radius: 6px;
   color: var(--ink);
   font-size: 0.95rem;
@@ -172,7 +172,7 @@ a:hover {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 6px;
-  box-shadow: 0 10px 30px rgba(23, 33, 43, 0.045);
+  box-shadow: none;
 }
 
 .archive__item-title {
@@ -204,7 +204,7 @@ a:hover {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 6px;
-  box-shadow: 0 12px 36px rgba(23, 33, 43, 0.08);
+  box-shadow: none;
 }
 
 .map-frame iframe {
