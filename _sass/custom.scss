@@ -76,7 +76,13 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.greedy-nav .visible-links::-webkit-scrollbar {
+  display: none;
 }
 
 .greedy-nav .visible-links li {
