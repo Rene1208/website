@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="update page Codex">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/custom.scss" afterDir="false" />
-    </list>
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="update page Codex" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +164,7 @@
       <workItem from="1776549612802" duration="185000" />
       <workItem from="1776549825449" duration="6711000" />
       <workItem from="1776606488409" duration="1762000" />
-      <workItem from="1776608372143" duration="4494000" />
+      <workItem from="1776608372143" duration="4541000" />
     </task>
     <task id="LOCAL-00014" summary="massive updates">
       <created>1718604590351</created>
