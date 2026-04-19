@@ -5,7 +5,9 @@
   --muted: rgba(23, 33, 43, 0.68);
   --line: rgba(23, 33, 43, 0.14);
   --nav: #17212b;
-  --accent: #17212b;
+  --accent: #0d665c;
+  --accent-soft: rgba(13, 102, 92, 0.08);
+  --accent-line: rgba(13, 102, 92, 0.58);
   --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-display: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -66,6 +68,8 @@ a:hover {
 
 .greedy-nav {
   background: transparent;
+  min-width: 0;
+  width: 100%;
 }
 
 .greedy-nav button {
@@ -87,6 +91,7 @@ a:hover {
 
 .greedy-nav .visible-links li {
   flex: 0 0 auto;
+  min-width: 0;
 }
 
 .greedy-nav a,
@@ -236,8 +241,9 @@ a:hover {
   padding: 0.9rem 1rem;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-left: 1px solid var(--line);
+  border-left: 3px solid var(--accent-line);
   border-radius: 6px;
+  box-shadow: inset 10px 0 18px -18px var(--accent);
   color: var(--ink);
   font-size: 0.92rem;
   line-height: 1.52;
@@ -293,8 +299,26 @@ a:hover {
 }
 
 @media only screen and (max-width: 925px) {
+  .greedy-nav .visible-links {
+    gap: 0.24rem;
+  }
+
+  .greedy-nav a,
+  .masthead__menu-item {
+    font-size: 0.78rem;
+  }
+
+  .masthead__menu-item {
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
+  }
+
   .masthead__menu-item--lg {
     margin-right: 1.2rem;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.82rem;
   }
 
   .page,
@@ -306,10 +330,56 @@ a:hover {
 
 }
 
+@media only screen and (max-width: 720px) {
+  .greedy-nav .visible-links {
+    gap: 0.12rem;
+  }
+
+  .greedy-nav a,
+  .masthead__menu-item {
+    font-size: 0.68rem;
+  }
+
+  .masthead__menu-item {
+    padding-left: 0.22rem;
+    padding-right: 0.22rem;
+  }
+
+  .masthead__menu-item--lg {
+    margin-right: 0.35rem;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.72rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   body {
     margin: 0;
     padding-top: 58px;
+  }
+
+  .greedy-nav .visible-links {
+    gap: 0.06rem;
+  }
+
+  .greedy-nav a,
+  .masthead__menu-item {
+    font-size: 0.58rem;
+  }
+
+  .masthead__menu-item {
+    padding-left: 0.14rem;
+    padding-right: 0.14rem;
+  }
+
+  .masthead__menu-item--lg {
+    margin-right: 0.18rem;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.62rem;
   }
 
   .map-frame iframe {

@@ -48,16 +48,26 @@ layout: default
         {{ content }}
 
         {% assign paper_label = page.paperlabel | default: "Download Paper" %}
+        {% capture media_links %}
+          {% if page.media_links %}
+            <br />
+            {% for media in page.media_links %}<a href="{{ media.url }}">{{ media.label }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}
+          {% endif %}
+        {% endcapture %}
         {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paper_label }}</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paper_label }}</a> | <a href="{{ page.slidesurl }}">Download Slides</a>{{ media_links }}</p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paper_label }}</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paper_label }}</a>{{ media_links }}</p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a>{{ media_links }}</p>
         {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}{{ media_links }}</p>
+        {% elsif page.paperurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">{{ paper_label }}</a>{{ media_links }}</p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a>{{ media_links }}</p>
+        {% elsif page.media_links %}
+          <p style="font-size: smaller">{% for media in page.media_links %}<a href="{{ media.url }}">{{ media.label }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
