@@ -539,9 +539,12 @@ a:hover {
   }
 
   .greedy-nav.is-open .visible-links .masthead__menu-item.is-active a::after {
-    width: 1.35rem !important;
-    max-width: 1.35rem;
+    width: 1.35rem;
     margin-top: 0.24rem;
+  }
+
+  .greedy-nav.is-open .visible-links a::before {
+    width: 1.35rem;
   }
 
   .map-frame iframe {
