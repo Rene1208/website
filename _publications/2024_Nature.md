@@ -8,11 +8,6 @@ with nature can lead individuals to behave more pro-environmentally.'
 date: 2024-08-08
 venue: 'Journal of Environmental Psychology'
 paperurl: 'http://rene-schwaiger.online/files/Nature.pdf'
-media_links:
-  - label: "Download Elevator Pitch"
-    url: "/files/virtual-nature-conservation-donations-elevator-pitch.m4a"
-  - label: "Download Podcast"
-    url: "/files/pixel-waelder-rezept-gegen-stress-podcast.m4a"
 citation: 'Flecke, S.L., Huber, J., Kirchler, M., Schwaiger, R., (2024). Nature Experiences and Pro-Environmental Behavior: Evidence from a
 Randomized Controlled Trial, <i>Journal of Environmental Psychology</i>, 99, 102383.'
 ---

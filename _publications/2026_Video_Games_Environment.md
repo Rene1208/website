@@ -7,6 +7,11 @@ date: 2026-01-01
 venue: "Work in Progress"
 publication_type: "work-in-progress"
 status: "Write-up"
+media_links:
+  - label: "Download Elevator Pitch"
+    url: "/files/virtual-nature-conservation-donations-elevator-pitch.m4a"
+  - label: "Download Podcast"
+    url: "/files/pixel-waelder-rezept-gegen-stress-podcast.m4a"
 citation: "Flecke, S. L., Greitemeyer, T., & Schwaiger, R. (2026). Can open world video games foster pro-environmental behavior? Experimental evidence. Work in progress."
 ---
 
