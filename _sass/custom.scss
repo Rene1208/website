@@ -160,26 +160,29 @@ a:hover {
   text-align: left;
 }
 
-.page--home .page__inner-wrap,
-.page--home .page__content {
-  hyphens: auto;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.page--home .page__content p,
-.page--home .page__content li {
-  hyphens: auto;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
+.page__content > p,
+.archive__item > p,
+.archive__item-excerpt,
+.intro-panel,
 .landing-copy,
 .landing-copy p,
 .landing-copy li {
   hyphens: auto;
+  overflow-wrap: break-word;
   text-align: justify !important;
   text-justify: inter-word;
+}
+
+.page__content > p:has(a:only-child),
+.archive__item > p:has(a:only-child),
+.publication-links,
+.page__share,
+.page__meta,
+.page__date,
+.archive__item-title {
+  hyphens: manual;
+  overflow-wrap: normal;
+  text-align: left !important;
 }
 
 .page__content p,
@@ -536,7 +539,8 @@ a:hover {
   }
 
   .greedy-nav.is-open .visible-links .masthead__menu-item.is-active a::after {
-    width: 1.35rem;
+    width: 1.35rem !important;
+    max-width: 1.35rem;
     margin-top: 0.24rem;
   }
 
