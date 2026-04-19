@@ -36,6 +36,15 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('fade-in');
+
+    var nav = document.getElementById('site-nav-static');
+    var toggle = nav ? nav.querySelector('.mobile-menu-toggle') : null;
+    if (toggle) {
+      toggle.addEventListener('click', function() {
+        var isOpen = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
   });
 </script>
 
