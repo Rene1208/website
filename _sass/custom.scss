@@ -287,10 +287,10 @@ a:hover {
   align-items: center;
   min-height: 1.7rem;
   padding: 0.25rem 0.55rem;
-  background: transparent;
-  border: 1px solid var(--line);
+  background: var(--accent);
+  border: 1px solid var(--accent);
   border-radius: 4px;
-  color: var(--ink);
+  color: var(--site-bg);
   font-family: var(--font-display);
   font-size: 0.78rem;
   font-weight: 680;
@@ -299,9 +299,8 @@ a:hover {
 }
 
 .publication-links a:hover {
-  border-color: var(--accent);
-  color: var(--ink);
-  opacity: 0.82;
+  color: var(--site-bg);
+  opacity: 0.86;
 }
 
 .page__meta {
