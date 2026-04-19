@@ -66,7 +66,6 @@ a:hover {
 
 .greedy-nav {
   background: transparent;
-  min-width: 0;
 }
 
 .greedy-nav button {
@@ -76,10 +75,8 @@ a:hover {
 .greedy-nav .visible-links {
   display: flex;
   align-items: center;
-  gap: 0;
-  flex-wrap: nowrap;
-  overflow: visible;
-  width: 100%;
+  gap: 0.4rem;
+  flex-wrap: wrap;
 }
 
 .greedy-nav .visible-links li {
@@ -96,23 +93,18 @@ a:hover {
   white-space: nowrap;
 }
 
-.greedy-nav a {
-  margin: 0;
-  padding: 0.45rem 0.55rem;
-}
-
 .greedy-nav a:hover {
   color: var(--site-bg);
   opacity: 0.78;
 }
 
 .masthead__menu-item {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
 }
 
 .masthead__menu-item--lg {
-  margin-right: 1.1rem;
+  margin-right: 1.4rem;
 }
 
 .masthead__menu-item--lg a {
@@ -295,50 +287,19 @@ a:hover {
 }
 
 @media only screen and (max-width: 925px) {
-  .masthead__inner-wrap {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .greedy-nav a,
-  .masthead__menu-item {
-    font-size: 0.78rem;
-  }
-
-  .greedy-nav a {
-    padding-left: 0.36rem;
-    padding-right: 0.36rem;
-  }
-
-  .masthead__menu-item--lg {
-    margin-right: 0.45rem;
-  }
-
-  .masthead__menu-item--lg a {
-    font-size: 0.8rem;
-  }
-
   .page,
   .archive {
     width: 100%;
     float: none;
     padding: 0 1rem;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
   body {
     margin: 0;
     padding-top: 58px;
-  }
-
-  .greedy-nav .visible-links {
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .greedy-nav .visible-links::-webkit-scrollbar {
-    display: none;
   }
 
   .map-frame iframe {
