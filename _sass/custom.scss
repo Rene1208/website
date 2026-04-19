@@ -16,7 +16,6 @@ body {
   color: var(--ink);
   font-family: var(--font-sans) !important;
   font-weight: 400;
-  overflow-x: hidden;
 }
 
 body {
@@ -65,23 +64,9 @@ a:hover {
   border-bottom: 0;
 }
 
-.masthead__inner-wrap,
-#main {
-  max-width: none;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.masthead__inner-wrap {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .greedy-nav {
   background: transparent;
   min-width: 0;
-  width: 100%;
 }
 
 .greedy-nav button {
@@ -113,7 +98,7 @@ a:hover {
 
 .greedy-nav a {
   margin: 0;
-  padding: 0.45rem 0.85rem;
+  padding: 0.45rem 0.55rem;
 }
 
 .greedy-nav a:hover {
@@ -127,7 +112,7 @@ a:hover {
 }
 
 .masthead__menu-item--lg {
-  margin-right: 1.5rem;
+  margin-right: 1.1rem;
 }
 
 .masthead__menu-item--lg a {
@@ -321,12 +306,12 @@ a:hover {
   }
 
   .greedy-nav a {
-    padding-left: 0.46rem;
-    padding-right: 0.46rem;
+    padding-left: 0.36rem;
+    padding-right: 0.36rem;
   }
 
   .masthead__menu-item--lg {
-    margin-right: 0.65rem;
+    margin-right: 0.45rem;
   }
 
   .masthead__menu-item--lg a {
