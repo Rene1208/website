@@ -45,6 +45,29 @@
         toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       });
     }
+
+    document.querySelectorAll('.share-copy-link').forEach(function(button) {
+      button.addEventListener('click', function() {
+        var url = button.getAttribute('data-share-url') || window.location.href;
+        var markCopied = function() {
+          button.textContent = 'Copied';
+          window.setTimeout(function() { button.textContent = 'Copy link'; }, 1600);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function() {
+            markCopied();
+          });
+        } else {
+          var input = document.createElement('input');
+          input.value = url;
+          document.body.appendChild(input);
+          input.select();
+          document.execCommand('copy');
+          document.body.removeChild(input);
+          markCopied();
+        }
+      });
+    });
   });
 </script>
 

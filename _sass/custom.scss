@@ -307,6 +307,57 @@ a:hover {
   opacity: 0.86;
 }
 
+.page__share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 2.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.page__share-title {
+  flex-basis: 100%;
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.page__share a,
+.page__share button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.7rem;
+  padding: 0.25rem 0.55rem;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 680;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.page__share a:hover,
+.page__share button:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+  opacity: 0.82;
+}
+
+.page__share i {
+  margin-right: 0.28rem;
+}
+
 .page__meta {
   color: var(--muted);
   font-size: 0.86rem;
