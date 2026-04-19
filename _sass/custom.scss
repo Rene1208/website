@@ -104,7 +104,7 @@ a:hover {
 }
 
 .masthead__menu-item--lg {
-  margin-right: 1.4rem;
+  margin-right: 3rem;
 }
 
 .masthead__menu-item--lg a {
@@ -287,6 +287,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 925px) {
+  .masthead__menu-item--lg {
+    margin-right: 1.2rem;
+  }
+
   .page,
   .archive {
     width: 100%;

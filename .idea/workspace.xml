@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="update page Codex" />
+    <list default="true" id="d56327ac-b4ac-4bce-9646-ad2b528ebde0" name="Changes" comment="update page Codex">
+      <change beforePath="$PROJECT_DIR$/_sass/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/custom.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
