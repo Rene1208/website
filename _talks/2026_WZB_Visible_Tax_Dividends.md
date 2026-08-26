@@ -3,9 +3,10 @@ title: "Visible Tax Dividends and Support for Carbon Pricing: Evidence from Aust
 collection: talks
 type: "Invited seminar"
 permalink: /talks/2026_WZB_Visible_Tax_Dividends
-venue: "WZB Berlin Social Science Center"
+venue: "WZB Research Seminar"
 date: 2026-04-01
 location: "Berlin, Germany"
 ---
 
-Invited seminar at WZB on visible tax dividends and support for carbon pricing in Austria.
+Invited research seminar at the WZB Berlin Social Science Center on visible tax dividends and support for carbon pricing
+in Austria.

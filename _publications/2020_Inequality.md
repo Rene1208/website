@@ -1,13 +1,13 @@
 ---
-title: "Unequal opportunities, social groups, and redistribution: Evidence from Germany"
+title: "Unequal Opportunities, Social Groups, and Redistribution: Evidence from Germany"
 collection: publications
 permalink: /publication/2020_Inequality
 excerpt: 'In this paper we investigate the generalizability of the role of unequal opportunities and social group
 membership in redistributive preferences and examine the interaction between these two dimensions.'
 date: 2022-07-25
 venue: 'Journal of Behavioral and Experimental Economics'
-paperurl: 'http://rene-schwaiger.online/files/Inequality.pdf'
-citation: 'Schwaiger, R., Huber, J., Kirchler, M., Kleinlercher, D. (2022). Unequal opportunities, social groups, and
+paperurl: '/files/Inequality.pdf'
+citation: 'Schwaiger, R., Huber, J., Kirchler, M., Kleinlercher, D., Weitzel, U. (2022). Unequal opportunities, social groups, and
 redistribution: Evidence from Germany. <i>Journal of Behavioral and Experimental Economics</i>, 100, 101911.'
 ---
 

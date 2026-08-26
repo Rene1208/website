@@ -1,15 +1,15 @@
 ---
-title: "PS Financial Management"
+title: "Investment and Financing"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/Invest
-venue: "University of Innsbruck, Department of Banking and Finance"
+venue: "University of Innsbruck, B.Sc. Management and Economics"
 date: 2018-10-01
-end_date: 2023-06-30
 location: "Innsbruck, Austria"
 ---
 
-This undergraduate course covers the fundamental principles of financial management, including financial planning, capital budgeting, and financial analysis.
+This recurring undergraduate seminar covers core investment and financing decisions, including financial planning,
+capital budgeting, valuation, and financial analysis.
 
 ## Course Content
 

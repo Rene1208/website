@@ -5,6 +5,7 @@ type: "Professional Course"
 permalink: /teaching/portfolio
 venue: "Hypo Tirol Bank"
 date: 2024-05-24
+end_date: 2025-12-31
 location: "Innsbruck, Austria"
 ---
 

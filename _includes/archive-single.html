@@ -41,7 +41,9 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if post.publication_type == 'working-paper' %}
+          {% if post.publication_status %}
+            <p>{{ post.publication_status }} <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% elsif post.publication_type == 'working-paper' %}
             <p>{{ post.status | default: "Working paper" }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% elsif post.publication_type == 'work-in-progress' %}
             <p>{{ post.status | default: "Work in progress" }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>

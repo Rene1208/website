@@ -1,14 +1,16 @@
 ---
-title: "Corporate Decision-Making"
+title: "Corporate Decision-Making and Societal Responsibility"
 collection: teaching
-type: "Undergraduate Course"
+type: "Undergraduate Seminar and Lecture"
 permalink: /teaching/2022-corporate-decision-making-societal-responsibility
 venue: "University of Innsbruck, B.Sc. Management and Economics"
 date: 2022-01-01
+end_date: 2025-12-31
 location: "Innsbruck, Austria"
 ---
 
-This course examines corporate decision-making in economic and societal context. I teach the seminar from 2022 onward and taught the lecture in winter 2024/25.
+This course examines corporate decision-making in its economic and societal context. I taught the seminar from 2022 to
+2025 and the accompanying lecture in winter 2024/25.
 
 ## Course Goals
 

@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="intro-panel">A current overview of peer-reviewed journal publications. Working papers and ongoing projects are listed separately on the <a href="/working-papers/">Working Papers</a> page. You can also find my work on <a href="https://scholar.google.com/citations?user=FKR8WdMAAAAJ">Google Scholar</a>.</div>
+  <div class="intro-panel">Peer-reviewed journal publications and articles accepted for publication. Working papers and ongoing projects are listed separately on the <a href="/working-papers/">Working Papers</a> page. You can also find my work on <a href="https://scholar.google.com/citations?user=FKR8WdMAAAAJ">Google Scholar</a>.</div>
 {% endif %}
 
 {% include base_path %}

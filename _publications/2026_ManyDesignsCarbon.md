@@ -1,13 +1,14 @@
 ---
-title: "#ManyDesignsCarbon: Do behavioral interventions increase support for carbon pricing?"
+title: "Fifty-five Crowd-Sourced Designs Assessing Carbon Pricing Support"
 collection: publications
 permalink: /publication/2026_ManyDesignsCarbon
-excerpt: "A many-designs crowd-science project studying whether behavioral interventions increase real-world support for carbon pricing."
-date: 2026-01-01
-venue: "Preprint"
-publication_type: "working-paper"
-status: "Under review at Nature Human Behaviour"
-citation: "Blanco, E., Holzknecht, A., Huber, J., Kirchler, M., Schwaiger, R., et al. (2026). #ManyDesignsCarbon: Do behavioral interventions increase support for carbon pricing? Preprint."
+excerpt: "A crowd-sourced many-designs study evaluating 55 independently developed behavioral interventions with 19,558 participants. Joint first-authored and organized by a five-person core team."
+date: 2026-08-26
+venue: "Nature Human Behaviour"
+publication_status: "Accepted for publication at"
+citation: "Holzknecht, A.*, Schwaiger, R.*, Blanco, E., Huber, J., Kirchler, M., et al. (2026). Fifty-five crowd-sourced designs assessing carbon pricing support. <i>Nature Human Behaviour</i>. Accepted for publication. *Joint first authors."
 ---
 
-Joint work with Esther Blanco, Anna Holzknecht, Jürgen Huber, Michael Kirchler, and an international many-designs research team. The project evaluates behavioral interventions designed to increase support for carbon pricing.
+This large-scale crowd-science project evaluates 55 independently developed experimental designs aimed at increasing
+support for carbon pricing. The designs were tested with 19,558 participants. Anna Holzknecht and Rene Schwaiger are
+joint first authors and members of the five-person core organizing team.

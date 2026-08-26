@@ -1,13 +1,14 @@
 ---
-title: "Visible tax dividends and support for carbon pricing: Evidence from Austria"
+title: "Visible Tax Dividends and Support for Carbon Pricing: Evidence from Austria"
 collection: publications
 permalink: /publication/2026_Visible_Tax_Dividends
-excerpt: "A work-in-progress project on visible tax dividends and public support for carbon pricing in Austria."
+excerpt: "A working paper studying whether making tax dividends visible increases public support for carbon pricing in Austria."
 date: 2026-01-01
-venue: "Work in Progress"
-publication_type: "work-in-progress"
-status: "Data analysis and write-up"
-citation: "Bender, J., Blanco, E., Holzknecht, A., Huber, J., Kirchler, M., & Schwaiger, R. (2026). Visible tax dividends and support for carbon pricing: Evidence from Austria. Work in progress."
+venue: "Working Paper"
+publication_type: "working-paper"
+status: "Submitted to PNAS"
+citation: "Benda, J., Blanco, E., Holzknecht, A., Huber, J., Kirchler, M., & Schwaiger, R. (2026). Visible Tax Dividends and Support for Carbon Pricing: Evidence from Austria. Working paper."
 ---
 
-Joint work with J. Bender, Esther Blanco, Anna Holzknecht, Jürgen Huber, and Michael Kirchler.
+Joint work with J. Benda, Esther Blanco, Anna Holzknecht, Jürgen Huber, and Michael Kirchler. The paper examines whether
+the visibility of tax dividends can strengthen public support for carbon pricing.

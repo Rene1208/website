@@ -1,11 +1,10 @@
 ---
-title: "Supervision of Bachelor Theses"
+title: "Supervision of Bachelor's Theses"
 collection: teaching
 type: "Undergraduate Supervision"
 permalink: /teaching/cobac
-venue: "University of Innsbruck, Department of Economics"
+venue: "University of Innsbruck, B.Sc. Management and Economics"
 date: 2018-10-01
-end_date: 2021-06-30
 location: "Innsbruck, Austria"
 ---
 

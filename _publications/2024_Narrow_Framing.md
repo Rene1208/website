@@ -4,10 +4,10 @@ collection: publications
 permalink: /publication/2024_Narrow_Framing
 excerpt: 'Narrow bracketing in combination with loss aversion has been shown to reduce individual risk-taking. This is
 known as myopic loss aversion (MLA) and has been corroborated by many studies.'
-date: 2025-01-01
+date: 2026-02-01
 venue: 'Management Science'
-paperurl: 'http://rene-schwaiger.online/files/MLA.pdf'
-citation: 'Schwaiger, R., Strucks, M., Zeisberger, S. (2025). The Consequences of Narrow Framing for Risk-Taking: A
+paperurl: '/files/MLA.pdf'
+citation: 'Schwaiger, R., Strucks, M., Zeisberger, S. (2026). The Consequences of Narrow Framing for Risk-Taking: A
 Stress Test of Myopic Loss Aversion. <i>Management Science</i>, 72(2), 1324-1340.'
 ---
 
@@ -16,5 +16,5 @@ known as myopic loss aversion (MLA) and has been corroborated by many studies. R
 indicating that MLA's applicability is confined to highly artificial settings. Given the impact of these findings, we
 reevaluate the evidence on MLA with substantially higher statistical power than in almost all previous studies. We
 systematically modified the seminal study design by Gneezy and Potters (1997) to include five key adjustments. These
-involved down-scaled returns, return compounding, and extended investment horizons. Our results—which are highly robust
+involved down-scaled returns, return compounding, and extended investment horizons. Our results, which are highly robust
 to analytical heterogeneity, consistently document the presence of MLA across all experimental conditions.

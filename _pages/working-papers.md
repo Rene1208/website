@@ -5,7 +5,7 @@ permalink: /working-papers/
 author_profile: true
 ---
 
-<div class="intro-panel">Current working papers, preprints, and selected research projects in progress.</div>
+<div class="intro-panel">Current manuscripts under review or submission, preprints, and selected research projects in progress.</div>
 
 {% include base_path %}
 
